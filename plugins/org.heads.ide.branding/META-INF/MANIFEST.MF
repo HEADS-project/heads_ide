@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Branding for Heads
+Bundle-SymbolicName: org.heads.ide.branding;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: heads-project.eu
