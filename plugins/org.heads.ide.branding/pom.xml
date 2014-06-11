@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-   Copyright (C) 2013 Obeo
 
-   Cedric Brun <cedric.brun@obeo.fr>
--->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,7 +8,7 @@
 
     <parent>
         <groupId>org.heads</groupId>
-        <artifactId>org.heads_studio</artifactId>
+        <artifactId>org.heads_ide</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../..</relativePath>
     </parent>

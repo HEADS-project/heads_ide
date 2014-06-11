@@ -6,14 +6,14 @@
 
     <parent>
         <groupId>org.heads</groupId>
-        <artifactId>org.heads_studio</artifactId>
+        <artifactId>org.heads_ide</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
 
     <groupId>org.heads</groupId>
-    <artifactId>org.heads_studio.product</artifactId>
+    <artifactId>org.heads_ide.product</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>eclipse-repository</packaging>
 
