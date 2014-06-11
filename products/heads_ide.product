@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Heads IDE" uid="heads_ide" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>--launcher.XXMaxPermSize
+256m</programArgs>
+      <vmArgs>-Xms256m
+-Xmx1024m
+-XX:MaxPermSize=256m</vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <plugins>
+   </plugins>
+
+   <features>
+	<feature id="org.thingml.eclipse.feature"/>
+	<feature id="KevoreeEclipsePluginFeature"/>
+
+	<feature id="org.scala-ide.sdt.feature"/>
+
+ <!--  <import feature="org.emftext.sdk"
+         version="0.0.0" match="greaterOrEqual"/>-->
+
+   <feature id="org.emftext.language.feature"/>
+ 
+
+      <feature id="org.heads.ide.feature"/>
+      <feature id="org.eclipse.team.svn.mylyn"/>
+      <feature id="org.eclipse.team.svn.resource.ignore.rules.jdt"/>
+      <feature id="org.eclipse.team.svn"/>
+      <feature id="org.eclipse.egit"/>
+      <feature id="org.eclipse.egit.mylyn"/>
+      <feature id="org.eclipse.jgit"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature"/>
+      <feature id="org.eclipse.mylyn.hudson"/>
+      <feature id="org.eclipse.sdk"/>
+    <!--   <feature id="fr.obeo.dsl.plugin.feature"/>-->
+   <!--    <feature id="fr.obeo.dsl.feature.designer.gen.html"/>-->
+    <!--    <feature id="org.polarion.eclipse.team.svn.connector"/>-->
+     <!--   <feature id="org.polarion.eclipse.team.svn.connector.svnkit16"/>-->
+     <!--   <feature id="org.polarion.eclipse.team.svn.connector.svnkit17"/>-->
+      <feature id="org.eclipse.m2e.feature"/>
+      <feature id="org.eclipse.m2e.logback.feature"/>
+      <feature id="org.eclipse.mylyn.context_feature"/>
+      <feature id="org.eclipse.mylyn.monitor"/>
+      <feature id="org.eclipse.mylyn.team_feature"/>
+      <feature id="org.eclipse.mylyn_feature"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="3" />
+   </configurations>
+
+</product>
