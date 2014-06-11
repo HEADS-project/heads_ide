@@ -1,5 +1,5 @@
-heads_studio
+heads_ide
 ============
 
-Initial infrastructure for building the heads studio bundle
+Initial infrastructure for building the heads IDE bundle
 
