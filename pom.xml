@@ -67,6 +67,19 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>node</id>
+			<url>http://www.nodeclipse.org/updates/</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+
 				
 
 

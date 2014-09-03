@@ -25,7 +25,7 @@
 	<feature id="org.scala-ide.sdt.feature"/>
 
  <!--  <import feature="org.emftext.sdk"
-         version="0.0.0" match="greaterOrEqual"/>-->
+          match="greaterOrEqual"/>-->
 
    <feature id="org.emftext.language.feature"/>
  
@@ -51,6 +51,88 @@
       <feature id="org.eclipse.mylyn.monitor"/>
       <feature id="org.eclipse.mylyn.team_feature"/>
       <feature id="org.eclipse.mylyn_feature"/>
+	 <feature id="org.eclipse.cdt"/>
+	 <feature id="org.eclipse.cdt.util"/>
+	 <feature id="org.eclipse.cdt.mylyn"/>
+<feature id="org.eclipse.cvs"/>
+<feature id="org.eclipse.emf" />
+<feature id="org.eclipse.emf.codegen" />
+<feature id="org.eclipse.emf.codegen.ecore" />
+<feature id="org.eclipse.emf.codegen.ecore.ui" />
+<feature id="org.eclipse.emf.codegen.ui" />
+<feature id="org.eclipse.emf.common" />
+<feature id="org.eclipse.emf.common.ui" />
+<feature id="org.eclipse.emf.converter" />
+<feature id="org.eclipse.emf.databinding" />
+<feature id="org.eclipse.emf.databinding.edit" />
+<feature id="org.eclipse.emf.ecore" />
+<feature id="org.eclipse.emf.ecore.edit" />
+<feature id="org.eclipse.emf.ecore.editor" />
+<feature id="org.eclipse.emf.edit" />
+<feature id="org.eclipse.emf.edit.ui" />
+<feature id="org.eclipse.emf.mapping" />
+<feature id="org.eclipse.emf.mapping.ecore" />
+<feature id="org.eclipse.emf.mapping.ecore.editor" />
+<feature id="org.eclipse.emf.mapping.ui" />
+<feature id="org.eclipse.jdt" />
+<feature id="org.eclipse.pde" />
+<feature id="org.eclipse.xsd.ecore.converter" />
+<feature id="org.eclipse.xsd.editor" />
+<feature id="org.eclipse.xsd.edit" />
+<feature id="org.eclipse.xsd.mapping.editor" />
+<feature id="org.eclipse.xsd.mapping" />
+<feature id="org.eclipse.xsd" />
+<feature id="org.eclipse.gef" />
+<feature id="org.eclipse.draw2d" />
+<feature id="org.eclipse.jsf.feature" />
+<feature id="org.eclipse.jst.common.fproj.enablement.jdt" />
+<feature id="org.eclipse.jst.enterprise_core.feature" />
+<feature id="org.eclipse.jst.enterprise_ui.feature" />
+<feature id="org.eclipse.jst.enterprise_userdoc.feature" />
+<feature id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature" />
+<feature id="org.eclipse.jst.server_adapters.ext.feature" />
+<feature id="org.eclipse.jst.server_adapters.feature" />
+<feature id="org.eclipse.jst.server_core.feature" />
+<feature id="org.eclipse.jst.server_ui.feature" />
+<feature id="org.eclipse.jst.server_userdoc.feature" />
+<feature id="org.eclipse.jst.webpageeditor.feature" />
+<feature id="org.eclipse.jst.web_core.feature" />
+<feature id="org.eclipse.jst.web_ui.feature" />
+<feature id="org.eclipse.jst.web_userdoc.feature" />
+<feature id="org.eclipse.jst.ws.axis2tools.feature" />
+<feature id="org.eclipse.jst.ws.cxf.feature" />
+<feature id="org.eclipse.jst.ws.jaxws.dom.feature" />
+<feature id="org.eclipse.jst.ws.jaxws.feature" />
+<feature id="org.eclipse.jst.ws.jaxws_userdoc.feature" />
+<feature id="org.eclipse.wst.common.fproj" />
+<feature id="org.eclipse.wst.common_core.feature" />
+<feature id="org.eclipse.wst.common_ui.feature" />
+<feature id="org.eclipse.wst.jsdt.feature" />
+<feature id="org.eclipse.wst.server_adapters.feature" />
+<feature id="org.eclipse.wst.server_core.feature" />
+<feature id="org.eclipse.wst.server_ui.feature" />
+<feature id="org.eclipse.wst.server_userdoc.feature" />
+<feature id="org.eclipse.wst.web_core.feature" />
+<feature id="org.eclipse.wst.web_ui.feature" />
+<feature id="org.eclipse.wst.web_userdoc.feature" />
+<feature id="org.eclipse.wst.ws_core.feature" />
+<feature id="org.eclipse.wst.ws_ui.feature" />
+<feature id="org.eclipse.wst.ws_userdoc.feature" />
+<feature id="org.eclipse.wst.ws_wsdl15.feature" />
+<feature id="org.eclipse.wst.xml.xpath2.processor.feature" />
+<feature id="org.eclipse.wst.xml_core.feature" />
+<feature id="org.eclipse.wst.xml_ui.feature" />
+<feature id="org.eclipse.wst.xml_userdoc.feature" />
+<feature id="org.eclipse.wst.xsl.feature" />
+<feature id="org.nodeclipse.enide.studio.included.feature" />
+<feature id="org.nodeclipse.enide.nodejs.feature" />
+
+
+
+
+
+
+	 <!--<feature id="org.eclipse.cdt.mylyn"/>-->
    </features>
 
    <configurations>
