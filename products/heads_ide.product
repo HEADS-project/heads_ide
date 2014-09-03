@@ -126,9 +126,21 @@
 <feature id="org.eclipse.wst.xsl.feature" />
 <feature id="org.nodeclipse.enide.studio.included.feature" />
 <feature id="org.nodeclipse.enide.nodejs.feature" />
+<feature id="org.python.pydev.feature" />
+<feature id="org.python.pydev.mylyn.feature" />
 
+<feature id="org.eclipse.xtend.gwt" />
 
-
+<feature id="org.eclipse.xtend.sdk" />
+<feature id="com.google.appengine.eclipse.sdkbundle.feature" />
+<feature id="com.google.gdt.eclipse.suite.e44.feature" />
+<feature id="com.google.gwt.eclipse.sdkbundle.feature" />
+<feature id="com.google.gdt.eclipse.designer.hosted.feature" />
+<feature id="com.google.gdt.eclipse.designer.editor.feature" />
+<feature id="com.google.gdt.eclipse.designer.gpe.feature" />
+<feature id="org.eclipse.wb.core.feature" />
+<feature id="org.eclipse.wb.css.feature" />
+<feature id="org.eclipse.wb.core.xml.feature" />
 
 
 
