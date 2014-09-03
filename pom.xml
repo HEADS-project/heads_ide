@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        	<tycho-version>0.18.1</tycho-version>
+        	<tycho-version>0.19.0</tycho-version>
 		<project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
 	    </properties>
 
@@ -25,7 +25,7 @@
 	<repositories>
         	<repository>
 			<id>Kepler</id>
-			<url>http://download.eclipse.org/releases/kepler/</url>
+			<url>http://download.eclipse.org/releases/luna/</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -36,7 +36,7 @@
 		</repository>
 		<repository>
 			<id>kepler-updates</id>
-			<url>http://download.eclipse.org/eclipse/updates/4.3</url>
+			<url>http://download.eclipse.org/eclipse/updates/4.4</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -46,6 +46,7 @@
 			</snapshots>
 		</repository>
 		<repository>
+
 			<id>xtend-updates</id>
 			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url>
 			<layout>p2</layout>
@@ -79,8 +80,28 @@
 			</snapshots>
 		</repository>
 
-
-				
+	<repository>
+			<id>pydev</id>
+			<url>http://update-production-pydev.s3.amazonaws.com/pydev/updates/</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	<repository>
+			<id>google</id>
+			<url>https://dl.google.com/eclipse/plugin/4.4</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 
 
 	</repositories>
