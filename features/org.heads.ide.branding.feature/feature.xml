@@ -26,7 +26,7 @@
          version="0.0.0" match="greaterOrEqual"/>
 
    <import feature="org.scala-ide.sdt.feature"
-         version="0.0.0" match="greaterOrEqual"/>
+         version="4.0.0" match="greaterOrEqual"/>
 
  <!--  <import feature="org.emftext.sdk"
          version="0.0.0" match="greaterOrEqual"/>-->

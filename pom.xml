@@ -79,6 +79,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>scala</id>
+			<url>http://download.scala-ide.org/sdk/lithium/e44/scala211/dev/site/</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 
 	<repository>
 			<id>pydev</id>
