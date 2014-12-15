@@ -3,12 +3,6 @@ addRepository(type:0,location:http${#58}//www.obeo.fr/download/release/designer/
 addRepository(type:1,location:http${#58}//www.obeo.fr/download/release/designer/6.1/latest/juno3/update,name:Obeo Designer 6.1);\
 addRepository(type:0,location:http${#58}//www.obeo.fr/download/eclipse/juno-3.8,name:Juno 3.8);\
 addRepository(type:1,location:http${#58}//www.obeo.fr/download/eclipse/juno-3.8,name:Juno 3.8);\
-addRepository(type:0,location:http${#58}//timesquare.inria.fr/ecl/update_site,name:Timesquare ECL);\
-addRepository(type:1,location:http${#58}//timesquare.inria.fr/ecl/update_site,name:Timesquare ECL);\
-addRepository(type:0,location:http${#58}//timesquare.inria.fr/update_site,name:Timesquare);\
-addRepository(type:1,location:http${#58}//timesquare.inria.fr/update_site,name:Timesquare);\
-addRepository(type:0,location:http${#58}//www.kermeta.org/integration_build/kermeta2_snapshot/update/,name:Kermeta 2 Snapshot);\
-addRepository(type:1,location:http${#58}//www.kermeta.org/integration_build/kermeta2_snapshot/update/,name:Kermeta 2 Snapshot);\
   mkdir(path:${installFolder}/dropins);
 
 requires.1.namespace=org.eclipse.equinox.p2.iu
@@ -65,8 +59,8 @@ units.3.provides.1.version=1.0.0
 units.3.filter=(&(osgi.os=macosx) (osgi.arch=x86_64))
 units.3.touchpoint.id=org.eclipse.equinox.p2.osgi
 units.3.touchpoint.version=1.0.0
-units.3.instructions.configure=addJvmArg(jvmArg:-Xms40m);addJvmArg(jvmArg:-Xmx512m);
-units.3.instructions.unconfigure=removeJvmArg(jvmArg:-Xms40m);removeJvmArg(jvmArg:-Xmx512m);
+units.3.instructions.configure=addJvmArg(jvmArg:-Xms40m);addJvmArg(jvmArg:-Xmx1024m);
+units.3.instructions.unconfigure=removeJvmArg(jvmArg:-Xms40m);removeJvmArg(jvmArg:-Xmx1024m);
 
 units.4.id=toolingorg.eclipse.configuration.aix.ppc64-collab
 units.4.version=1.0.0
@@ -76,5 +70,5 @@ units.4.provides.1.version=1.0.0
 units.4.filter=(&(osgi.os=aix) (osgi.arch=ppc64))
 units.4.touchpoint.id=org.eclipse.equinox.p2.osgi
 units.4.touchpoint.version=1.0.0
-units.4.instructions.configure=addJvmArg(jvmArg:-Xms40m);addJvmArg(jvmArg:-Xmx512m);
-units.4.instructions.unconfigure=removeJvmArg(jvmArg:-Xms40m);removeJvmArg(jvmArg:-Xmx512m);
+units.4.instructions.configure=addJvmArg(jvmArg:-Xms40m);addJvmArg(jvmArg:-Xmx1024m);
+units.4.instructions.unconfigure=removeJvmArg(jvmArg:-Xms40m);removeJvmArg(jvmArg:-Xmx1024m);
