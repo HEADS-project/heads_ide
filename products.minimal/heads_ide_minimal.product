@@ -23,6 +23,7 @@
 	<feature id="KevoreeEclipsePluginFeature"/>
    <feature id="org.emftext.language.feature"/>-->
       <feature id="org.heads.ide.feature"/>
+      <feature id="org.eclipse.sdk"/>
 <!--      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.jgit"/>
       <feature id="org.eclipse.m2e.feature"/>
