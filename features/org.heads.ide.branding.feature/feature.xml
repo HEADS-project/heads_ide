@@ -18,21 +18,19 @@
    </license>
 
    <requires>
-
- <import feature="org.thingml.eclipse.feature"
-         version="0.0.0" match="greaterOrEqual"/>
-
-   <import feature="KevoreeEclipsePluginFeature"
-         version="0.0.0" match="greaterOrEqual"/>
-
-   <import feature="org.scala-ide.sdt.feature"
-         version="4.0.0" match="greaterOrEqual"/>
-
- <!--  <import feature="org.emftext.sdk"
-         version="0.0.0" match="greaterOrEqual"/>-->
-
-   <import feature="org.emftext.language.feature"
-         version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.thingml.eclipse.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="KevoreeEclipsePluginFeature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.emftext.language.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.cdt" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.egit" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jgit" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.logback.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend.sdk" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jdt" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.nodeclipse.enide.nodejs.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.nodeclipse.enide.studio.included.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="net.mihai-nita.ansicon" version="0.0.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin

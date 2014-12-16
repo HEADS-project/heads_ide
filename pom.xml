@@ -13,9 +13,11 @@
 	    </properties>
 
     <modules>
-        <module>products</module>
         <module>plugins/org.heads.ide.branding</module>
         <module>features/org.heads.ide.branding.feature</module>		
+        <module>products.minimal</module>
+<!--        <module>products</module>
+-->
     </modules>
 
     
@@ -113,7 +115,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-
+	<repository>
+			<id>ansiconsole</id>
+			<url>http://www.mihai-nita.net/eclipse</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 
 	</repositories>
 
@@ -137,7 +149,7 @@
                             <ws>gtk</ws>
                             <arch>x86_64</arch>
                         </environment>
-                        <environment>
+                       <!-- <environment>
                             <os>linux</os>
                             <ws>gtk</ws>
                             <arch>x86</arch>
@@ -152,11 +164,11 @@
                             <ws>win32</ws>
                             <arch>x86_64</arch>
                         </environment>
-                        <environment>
+                       <environment>
                             <os>macosx</os>  
                             <ws>cocoa</ws>  
                             <arch>x86_64</arch> 
-                        </environment>
+                        </environment>-->
                     </environments>
                 </configuration>
             </plugin>
