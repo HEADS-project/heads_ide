@@ -16,7 +16,7 @@
         <module>plugins/org.heads.ide.branding</module>
         <module>features/org.heads.ide.branding.feature</module>		
         <module>products.minimal</module>
-        <module>products</module>
+<!--        <module>products</module>-->
 
     </modules>
 
