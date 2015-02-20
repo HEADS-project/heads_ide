@@ -1,0 +1,698 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Modify the configuration and deployment of a running HD-Service | HEADS IDE &amp; Methodology</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.6.1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <meta name="author" content="HEADS-project">
+    
+    
+    <link rel="next" href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html" />
+    
+    
+    <link rel="prev" href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-github="HEADS-project/methodology" data-level="3.3.2" data-basepath=".." data-revision="1416386885305">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://heads-project.github.io/methodology/" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/HEADS-project/methodology/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/HEADS-project/methodology/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" >HEADS IDE &amp; Methodology</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="http://heads-project.eu" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/HEADS-project/methodology" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+	
+
+        
+        <li class="divider"></li>
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="heads_actors/README.html">
+            
+                
+                    <a href="../heads_actors/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         HEADS Actors
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="heads_actors/platform_experts.html">
+            
+                
+                    <a href="../heads_actors/platform_experts.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Platform Experts
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="heads_actors/service_developers.html">
+            
+                
+                    <a href="../heads_actors/service_developers.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Service Developers
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="heads_actors/service_operators.html">
+            
+                
+                    <a href="../heads_actors/service_operators.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         Service Operators
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="heads_ide/README.html">
+            
+                
+                    <a href="../heads_ide/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         HEADS IDE
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="heads_ide/design-time.html">
+            
+                
+                    <a href="../heads_ide/design-time.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         @Design-time
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="heads_ide/runtime.html">
+            
+                
+                    <a href="../heads_ide/runtime.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         @Runtime
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.3" data-path="heads_ide/installation_guide.html">
+            
+                
+                    <a href="../heads_ide/installation_guide.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                         Installation Guide
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="heads_methodology/README.html">
+            
+                
+                    <a href="../heads_methodology/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         HEADS Methodology
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="heads_methodology/for_platform_experts.html">
+            
+                
+                    <a href="../heads_methodology/for_platform_experts.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         For Platform Experts
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1.1" data-path="heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
+            
+                
+                    <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                         Create libraries to support platform specific features / library / component
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.1.2" data-path="heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
+            
+                
+                    <a href="../heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                         Extend the ThingML transformations to compile code for a new platform
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.1.3" data-path="heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html">
+            
+                
+                    <a href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.</b>
+                        
+                         Extend Kevoree to deploy code for a new platform
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.1.4" data-path="heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
+            
+                
+                    <a href="../heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.4.</b>
+                        
+                         Extend Kevoree to support a new communication channel
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="heads_methodology/for_service_developers.html">
+            
+                
+                    <a href="../heads_methodology/for_service_developers.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         For Service Developers
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.2.1" data-path="heads_methodology/model_hd-service_logic_with_thingml_components.html">
+            
+                
+                    <a href="../heads_methodology/model_hd-service_logic_with_thingml_components.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.1.</b>
+                        
+                         Model HD-Service logic with ThingML components
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2.2" data-path="heads_methodology/compile_thingml_components_to_platform_specific_code.html">
+            
+                
+                    <a href="../heads_methodology/compile_thingml_components_to_platform_specific_code.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.2.</b>
+                        
+                         Compile ThingML components to platform specific code
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2.3" data-path="heads_methodology/model_hd-service_deployment_with_kevoree.html">
+            
+                
+                    <a href="../heads_methodology/model_hd-service_deployment_with_kevoree.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.3.</b>
+                        
+                         Model HD-Service deployment with Kevoree
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2.4" data-path="heads_methodology/deploy_platform_specific_code_using_kevoree.html">
+            
+                
+                    <a href="../heads_methodology/deploy_platform_specific_code_using_kevoree.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.4.</b>
+                        
+                         Deploy platform specific code using Kevoree
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="heads_methodology/for_service_operators.html">
+            
+                
+                    <a href="../heads_methodology/for_service_operators.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         For Service Operators
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.1" data-path="heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                         Visualize the configuration and status of a running HD-Service
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="3.3.2" data-path="heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                         Modify the configuration and deployment of a running HD-Service
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.3" data-path="heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                         Re-deploy/adapt/reconfigure a running HD-Service
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="credits/README.html">
+            
+                
+                    <a href="../credits/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Credits
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="license/README.html">
+            
+                
+                    <a href="../license/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         License
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 88%;min-width: 84%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../heads_actors/README.html" title="HEADS Actors" class="chapter done new-chapter" data-progress="1" style="left: 4%;"></a>
+    
+        <a href="../heads_actors/platform_experts.html" title="Platform Experts" class="chapter done " data-progress="1.1" style="left: 8%;"></a>
+    
+        <a href="../heads_actors/service_developers.html" title="Service Developers" class="chapter done " data-progress="1.2" style="left: 12%;"></a>
+    
+        <a href="../heads_actors/service_operators.html" title="Service Operators" class="chapter done " data-progress="1.3" style="left: 16%;"></a>
+    
+        <a href="../heads_ide/README.html" title="HEADS IDE" class="chapter done new-chapter" data-progress="2" style="left: 20%;"></a>
+    
+        <a href="../heads_ide/design-time.html" title="@Design-time" class="chapter done " data-progress="2.1" style="left: 24%;"></a>
+    
+        <a href="../heads_ide/runtime.html" title="@Runtime" class="chapter done " data-progress="2.2" style="left: 28%;"></a>
+    
+        <a href="../heads_ide/installation_guide.html" title="Installation Guide" class="chapter done " data-progress="2.3" style="left: 32%;"></a>
+    
+        <a href="../heads_methodology/README.html" title="HEADS Methodology" class="chapter done new-chapter" data-progress="3" style="left: 36%;"></a>
+    
+        <a href="../heads_methodology/for_platform_experts.html" title="For Platform Experts" class="chapter done " data-progress="3.1" style="left: 40%;"></a>
+    
+        <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html" title="Create libraries to support platform specific features / library / component" class="chapter done " data-progress="3.1.1" style="left: 44%;"></a>
+    
+        <a href="../heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html" title="Extend the ThingML transformations to compile code for a new platform" class="chapter done " data-progress="3.1.2" style="left: 48%;"></a>
+    
+        <a href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html" title="Extend Kevoree to deploy code for a new platform" class="chapter done " data-progress="3.1.3" style="left: 52%;"></a>
+    
+        <a href="../heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html" title="Extend Kevoree to support a new communication channel" class="chapter done " data-progress="3.1.4" style="left: 56%;"></a>
+    
+        <a href="../heads_methodology/for_service_developers.html" title="For Service Developers" class="chapter done " data-progress="3.2" style="left: 60%;"></a>
+    
+        <a href="../heads_methodology/model_hd-service_logic_with_thingml_components.html" title="Model HD-Service logic with ThingML components" class="chapter done " data-progress="3.2.1" style="left: 64%;"></a>
+    
+        <a href="../heads_methodology/compile_thingml_components_to_platform_specific_code.html" title="Compile ThingML components to platform specific code" class="chapter done " data-progress="3.2.2" style="left: 68%;"></a>
+    
+        <a href="../heads_methodology/model_hd-service_deployment_with_kevoree.html" title="Model HD-Service deployment with Kevoree" class="chapter done " data-progress="3.2.3" style="left: 72%;"></a>
+    
+        <a href="../heads_methodology/deploy_platform_specific_code_using_kevoree.html" title="Deploy platform specific code using Kevoree" class="chapter done " data-progress="3.2.4" style="left: 76%;"></a>
+    
+        <a href="../heads_methodology/for_service_operators.html" title="For Service Operators" class="chapter done " data-progress="3.3" style="left: 80%;"></a>
+    
+        <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html" title="Visualize the configuration and status of a running HD-Service" class="chapter done " data-progress="3.3.1" style="left: 84%;"></a>
+    
+        <a href="../heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html" title="Modify the configuration and deployment of a running HD-Service" class="chapter done " data-progress="3.3.2" style="left: 88%;"></a>
+    
+        <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html" title="Re-deploy/adapt/reconfigure a running HD-Service" class="chapter  " data-progress="3.3.3" style="left: 92%;"></a>
+    
+        <a href="../credits/README.html" title="Credits" class="chapter  new-chapter" data-progress="4" style="left: 96%;"></a>
+    
+        <a href="../license/README.html" title="License" class="chapter  new-chapter" data-progress="5" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_21">
+                    
+                        <h1 id="modify-the-configuration-and-deployment-of-a-running-hd-service">Modify the configuration and deployment of a running HD-Service</h1>
+<p><a href="http://kevoree.org/practices/level2" target="_blank">http://kevoree.org/practices/level2</a></p>
+<p><a href="http://kevoree.org/practices/level3" target="_blank">http://kevoree.org/practices/level3</a></p>
+<blockquote>
+<p><strong>todo</strong> Inria to complete this part</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html" class="navigation navigation-prev " aria-label="Previous page: Visualize the configuration and status of a running HD-Service"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html" class="navigation navigation-next " aria-label="Next page: Re-deploy/adapt/reconfigure a running HD-Service"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
