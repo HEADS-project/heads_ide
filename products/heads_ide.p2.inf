@@ -37,8 +37,16 @@ units.1.provides.1.version=1.0.0
 units.1.filter=(osgi.os=macosx)
 units.1.touchpoint.id=org.eclipse.equinox.p2.osgi
 units.1.touchpoint.version=1.0.0
-units.1.instructions.configure=setProgramProperty(propName:osgi.instance.area.default,propValue:workspace);
-units.1.instructions.unconfigure=setProgramProperty(propName:osgi.instance.area.default,propValue:);
+units.1.instructions.configure=\
+setProgramProperty(propName:osgi.instance.area.default,propValue:workspace);\
+setProgramProperty(propName:eclipse.buildId,propValue:4.4.1.M20140925-0400);\
+setProgramProperty(propName:eclipse.product,propValue:org.eclipse.sdk.ide);\
+setProgramProperty(propName:osgi.splashPath,propValue:platform\:/base/plugins/org.eclipse.platform);
+units.1.instructions.unconfigure=\
+setProgramProperty(propName:osgi.instance.area.default,propValue:);\
+setProgramProperty(propName:eclipse.buildId,propValue:);\
+setProgramProperty(propName:eclipse.product,propValue:);\
+setProgramProperty(propName:osgi.splashPath,propValue:);
 
 units.2.id=toolingorg.eclipse.configuration-collab
 units.2.version=1.0.0
@@ -55,11 +63,17 @@ units.3.id=toolingorg.eclipse.configuration.macosx.x86_64-collab
 units.3.version=1.0.0
 units.3.provides.1.namespace=org.eclipse.equinox.p2.iu
 units.3.provides.1.name=toolingorg.eclipse.configuration.macosx.x86_64
-units.3.provides.1.version=1.0.0
-units.3.filter=(&(osgi.os=macosx) (osgi.arch=x86_64))
-units.3.touchpoint.id=org.eclipse.equinox.p2.osgi
-units.3.touchpoint.version=1.0.0
-units.3.instructions.configure=addJvmArg(jvmArg:-Xms40m);addJvmArg(jvmArg:-Xmx1024m);
+units.3.proviunits.2.instructions.configure=\
+setProgramProperty(propName:osgi.instance.area.default,propValue:@user.home/workspace);\
+setProgramProperty(propName:eclipse.buildId,propValue:4.4.1.M20140925-0400);\
+setProgramProperty(propName:eclipse.product,propValue:org.eclipse.sdk.ide);\
+setProgramProperty(propName:osgi.splashPath,propValue:platform\:/base/plugins/org.eclipse.platform);
+units.2.instructions.unconfigure=\
+setProgramProperty(propName:osgi.instance.area.default,propValue:);\
+setProgramProperty(propName:eclipse.buildId,propValue:);\
+setProgramProperty(propName:eclipse.product,propValue:);\
+setProgramProperty(propName:osgi.splashPath,propValue:);
+ms40m);addJvmArg(jvmArg:-Xmx1024m);
 units.3.instructions.unconfigure=removeJvmArg(jvmArg:-Xms40m);removeJvmArg(jvmArg:-Xmx1024m);
 
 units.4.id=toolingorg.eclipse.configuration.aix.ppc64-collab
