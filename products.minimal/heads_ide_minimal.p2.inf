@@ -1,6 +1,4 @@
 instructions.configure=\
-addRepository(type:0,location:http${#58}//www.obeo.fr/download/release/designer/6.1/latest/juno3/update,name:Obeo Designer 6.1);\
-addRepository(type:1,location:http${#58}//www.obeo.fr/download/release/designer/6.1/latest/juno3/update,name:Obeo Designer 6.1);\
 addRepository(type:0,location:http${#58}//www.obeo.fr/download/eclipse/juno-3.8,name:Juno 3.8);\
 addRepository(type:1,location:http${#58}//www.obeo.fr/download/eclipse/juno-3.8,name:Juno 3.8);\
   mkdir(path:${installFolder}/dropins);
@@ -18,16 +16,10 @@ requires.2.range=[1.0.0,1.0.0]
 requires.2.greedy=true
 
 requires.3.namespace=org.eclipse.equinox.p2.iu
-requires.3.name=toolingorg.eclipse.configuration.macosx.x86_64
-requires.3.filter=(&(osgi.os=macosx) (osgi.arch=x86_64))
+requires.3.name=toolingorg.eclipse.configuration.aix.ppc64
+requires.3.filter=(&(osgi.os=aix) (osgi.arch=ppc64))
 requires.3.range=[1.0.0,1.0.0]
 requires.3.greedy=true
-
-requires.4.namespace=org.eclipse.equinox.p2.iu
-requires.4.name=toolingorg.eclipse.configuration.aix.ppc64
-requires.4.filter=(&(osgi.os=aix) (osgi.arch=ppc64))
-requires.4.range=[1.0.0,1.0.0]
-requires.4.greedy=true
 
 units.1.id=toolingorg.eclipse.configuration.macosx-collab
 units.1.version=1.0.0
