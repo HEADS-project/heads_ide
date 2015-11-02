@@ -57,7 +57,6 @@ units.3.provides.1.namespace=org.eclipse.equinox.p2.iu
 units.3.provides.1.name=toolingorg.eclipse.configuration.macosx.x86_64
 units.3.proviunits.2.instructions.configure=\
 setProgramProperty(propName:osgi.instance.area.default,propValue:@user.home/workspace);\
-setProgramProperty(propName:eclipse.buildId,propValue:4.4.1.M20140925-0400);\
 setProgramProperty(propName:eclipse.product,propValue:org.eclipse.sdk.ide);\
 setProgramProperty(propName:osgi.splashPath,propValue:platform\:/base/plugins/org.eclipse.platform);
 units.2.instructions.unconfigure=\
