@@ -28,7 +28,7 @@
 	<repositories>
         	<repository>
 			<id>Kepler</id>
-			<url>http://download.eclipse.org/releases/luna/</url>
+			<url>http://download.eclipse.org/releases/mars/</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -39,7 +39,7 @@
 		</repository>
 		<repository>
 			<id>kepler-updates</id>
-			<url>http://download.eclipse.org/eclipse/updates/4.4</url>
+			<url>http://download.eclipse.org/eclipse/updates/4.5</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -84,7 +84,7 @@
 		</repository>
 		<repository>
 			<id>scala</id>
-			<url>http://download.scala-ide.org/sdk/lithium/e44/scala211/dev/site/</url>
+			<url>http://download.scala-ide.org/sdk/lithium/e44/scala211/stable/site/</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -107,7 +107,7 @@
 		</repository>
 	<repository>
 			<id>google</id>
-			<url>https://dl.google.com/eclipse/plugin/4.4</url>
+			<url>https://dl.google.com/eclipse/plugin/4.5</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
