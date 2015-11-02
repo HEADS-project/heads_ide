@@ -1,0 +1,13 @@
+# generation command : dot graph.dot -o logger_graph.png -Tpng
+# generation requires graphviz tool installation
+digraph {
+  core [shape=box]
+  node0 [shape=box]
+  node1 [shape=box]
+  node1 -> node0 [label=forward]
+  comp0 -> node1
+  chan0 -> node1 [label=forward]
+  group0 -> node0
+  comp1 -> node0
+  node0 -> core [label=forward]
+}
