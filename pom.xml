@@ -107,7 +107,7 @@
 		</repository>
 	<repository>
 			<id>google</id>
-			<url>https://dl.google.com/eclipse/plugin/4.5</url>
+			<url>https://dl.google.com/eclipse/plugin/4.4</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
