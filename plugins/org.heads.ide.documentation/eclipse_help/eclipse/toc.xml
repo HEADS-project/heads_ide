@@ -13,7 +13,7 @@
 <topic  class="chapter " label="Service Operators" href="eclipse_help/eclipse/methodology/heads_actors/service_operators.html"/>
 </topic>    
 
-<topic  class="chapter "label="HEADS IDE" href="eclipse_help/eclipse/methodology/heads_ide/index.html">
+<topic  class="chapter " label="HEADS IDE" href="eclipse_help/eclipse/methodology/heads_ide/index.html">
 <topic  class="chapter " label="@Design-time" href="eclipse_help/eclipse/methodology/heads_ide/design-time.html"/>
 <topic  class="chapter " label="@Runtime" href="eclipse_help/eclipse/methodology/heads_ide/runtime.html"/>
 <topic  class="chapter " label="Installation Guide" href="eclipse_help/eclipse/methodology/heads_ide/installation_guide.html"/>
