@@ -1,25 +1,35 @@
 <!DOCTYPE HTML>
-<html lang="en-US" manifest="../manifest.appcache">
+<html lang="en" >
     
     <head>
         
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Extend the ThingML transformations to compile code for a new platform | HEADS IDE &amp; Methodology</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 0.6.1">
+        <meta name="generator" content="GitBook 2.4.3">
+        
+        
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
         
     
     
-    <meta name="author" content="HEADS-project">
+
+        
     
     
-    <link rel="next" href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html" />
+    <link rel="next" href="../heads_methodology/kevoree-platform-integration/index.html" />
     
     
     <link rel="prev" href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html" />
@@ -30,20 +40,729 @@
     <body>
         
         
-<link rel="stylesheet" href="../gitbook/style.css">
+    <div class="book" data-level="3.1.2" data-basepath=".." data-revision="Mon Nov 02 2015 11:17:14 GMT+0100 (CET)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="heads_actors/index.html">
+            
+                
+                    <a href="../heads_actors/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        HEADS Actors
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="heads_actors/platform_experts.html">
+            
+                
+                    <a href="../heads_actors/platform_experts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Platform Experts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="heads_actors/service_developers.html">
+            
+                
+                    <a href="../heads_actors/service_developers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Service Developers
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="heads_actors/service_operators.html">
+            
+                
+                    <a href="../heads_actors/service_operators.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Service Operators
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="heads_ide/index.html">
+            
+                
+                    <a href="../heads_ide/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        HEADS IDE
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="heads_ide/design-time.html">
+            
+                
+                    <a href="../heads_ide/design-time.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        @Design-time
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="heads_ide/runtime.html">
+            
+                
+                    <a href="../heads_ide/runtime.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        @Runtime
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="heads_ide/installation_guide.html">
+            
+                
+                    <a href="../heads_ide/installation_guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Installation Guide
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="heads_methodology/index.html">
+            
+                
+                    <a href="../heads_methodology/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        HEADS Methodology
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="heads_methodology/for_platform_experts.html">
+            
+                
+                    <a href="../heads_methodology/for_platform_experts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        For Platform Experts
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
+            
+                
+                    <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Create libraries to support platform specific features / library / component
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.1.2" data-path="heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
+            
+                
+                    <a href="../heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        Extend the ThingML transformations to compile code for a new platform
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="heads_methodology/kevoree-platform-integration/index.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.</b>
+                        
+                        Extend Kevoree to deploy code for a new platform
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.1" data-path="heads_methodology/kevoree-platform-integration/generalities.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/generalities.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.1.</b>
+                        
+                        Generalities
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.2" data-path="heads_methodology/kevoree-platform-integration/model.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/model.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.2.</b>
+                        
+                        Kevoree Model
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.2.1" data-path="heads_methodology/kevoree-platform-integration/kevoree-schema.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/kevoree-schema.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.2.1.</b>
+                        
+                        Kevoree MM V5 JsonSchema
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.3" data-path="heads_methodology/kevoree-platform-integration/core.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/core.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.3.</b>
+                        
+                        Core
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.4" data-path="heads_methodology/kevoree-platform-integration/remote_code_loader.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/remote_code_loader.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.4.</b>
+                        
+                        Remote Code Loader
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.5" data-path="heads_methodology/kevoree-platform-integration/registry_client.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/registry_client.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.5.</b>
+                        
+                        Registry Client
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.6" data-path="heads_methodology/kevoree-platform-integration/logger.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/logger.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.6.</b>
+                        
+                        Logger
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.7" data-path="heads_methodology/kevoree-platform-integration/model_generator.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/model_generator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.7.</b>
+                        
+                        Kevoree Model generation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.8" data-path="heads_methodology/kevoree-platform-integration/code_generator.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/code_generator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.8.</b>
+                        
+                        Code generator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.9" data-path="heads_methodology/kevoree-platform-integration/runtime.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/runtime.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.9.</b>
+                        
+                        Runtime
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.10" data-path="heads_methodology/kevoree-platform-integration/kevscript.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/kevscript.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.10.</b>
+                        
+                        Kevscript Tools
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.11" data-path="heads_methodology/kevoree-platform-integration/components/index.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/components/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.11.</b>
+                        
+                        Components
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.11.1" data-path="heads_methodology/kevoree-platform-integration/components/component.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/components/component.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.11.1.</b>
+                        
+                        Component
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.11.2" data-path="heads_methodology/kevoree-platform-integration/components/node.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/components/node.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.11.2.</b>
+                        
+                        Node
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.11.3" data-path="heads_methodology/kevoree-platform-integration/components/group.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/components/group.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.11.3.</b>
+                        
+                        Group
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.11.4" data-path="heads_methodology/kevoree-platform-integration/components/channel.html">
+            
+                
+                    <a href="../heads_methodology/kevoree-platform-integration/components/channel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.11.4.</b>
+                        
+                        Channel
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
+            
+                
+                    <a href="../heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.4.</b>
+                        
+                        Extend Kevoree to support a new communication channel
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="heads_methodology/for_service_developers.html">
+            
+                
+                    <a href="../heads_methodology/for_service_developers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        For Service Developers
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="heads_methodology/model_hd-service_logic_with_thingml_components.html">
+            
+                
+                    <a href="../heads_methodology/model_hd-service_logic_with_thingml_components.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.1.</b>
+                        
+                        Model HD-Service logic with ThingML components
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="heads_methodology/compile_thingml_components_to_platform_specific_code.html">
+            
+                
+                    <a href="../heads_methodology/compile_thingml_components_to_platform_specific_code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.2.</b>
+                        
+                        Compile ThingML components to platform specific code
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="heads_methodology/model_hd-service_deployment_with_kevoree.html">
+            
+                
+                    <a href="../heads_methodology/model_hd-service_deployment_with_kevoree.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.3.</b>
+                        
+                        Model HD-Service deployment with Kevoree
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="heads_methodology/deploy_platform_specific_code_using_kevoree.html">
+            
+                
+                    <a href="../heads_methodology/deploy_platform_specific_code_using_kevoree.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.4.</b>
+                        
+                        Deploy platform specific code using Kevoree
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="heads_methodology/for_service_operators.html">
+            
+                
+                    <a href="../heads_methodology/for_service_operators.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        For Service Operators
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                        Visualize the configuration and status of a running HD-Service
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                        Modify the configuration and deployment of a running HD-Service
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
+            
+                
+                    <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                        Re-deploy/adapt/reconfigure a running HD-Service
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="credits/index.html">
+            
+                
+                    <a href="../credits/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Credits
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="license/index.html">
+            
+                
+                    <a href="../license/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        License
+                    </a>
+            
+            
+        </li>
+    
 
 
-        
-    <div class="book" data-github="HEADS-project/methodology" data-level="3.1.2" data-basepath=".." data-revision="1416386885305">
-    <div class="book-header">
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
     <!-- Actions Left -->
-    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
     
-    <a href="https://heads-project.github.io/methodology/" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
-    
-    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
-    <span id="font-settings-wrapper">
-        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
         </a>
         <div class="dropdown-menu font-settings">
     <div class="dropdown-caret">
@@ -51,608 +770,658 @@
         <span class="caret-inner"></span>
     </div>
 
-    <div class="btn-group btn-block">
-        <button id="reduce-font-size" class="btn btn-default">A</button>
-        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
     </div>
 
-    <ul class="list-group font-family-list">
-        <li class="list-group-item" data-font="0">Serif</li>
-        <li class="list-group-item" data-font="1">Sans</li>
-    </ul>
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
 
-    <div class="btn-group btn-group-xs btn-block color-theme-list">
-        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
-        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
-        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
     </div>
 </div>
 
-    </span>
+    </div>
 
     <!-- Actions Right -->
     
-    
-    
-    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
     
 
     
-    <a href="https://github.com/HEADS-project/methodology/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
-    <a href="https://github.com/HEADS-project/methodology/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
     
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
 
     <!-- Title -->
     <h1>
-        <i class="fa fa-spinner fa-spin"></i>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
         <a href="../" >HEADS IDE &amp; Methodology</a>
     </h1>
 </div>
 
-    
-
-<div class="book-summary">
-    <div class="book-search">
-        <input type="text" placeholder="Search" class="form-control" />
-    </div>
-    <ul class="summary">
-        
-        
-        
-        <li>
-            <a href="http://heads-project.eu" target="blank" class="author-link">About the author</a>
-        </li>
-        
-
-        
-
-        
-        
-        <li>
-            <a href="https://github.com/HEADS-project/methodology" target="blank" class="contribute-link">Edit and Contribute</a>
-        </li>
-        
-
-	
-
-        
-        <li class="divider"></li>
-        
-
-        
-    
-        
-        <li class="chapter " data-level="0" data-path="index.html">
-            
-                
-                    <a href="../index.html">
-                        <i class="fa fa-check"></i>
-                        
-                         Introduction
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="1" data-path="heads_actors/README.html">
-            
-                
-                    <a href="../heads_actors/README.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>1.</b>
-                        
-                         HEADS Actors
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="1.1" data-path="heads_actors/platform_experts.html">
-            
-                
-                    <a href="../heads_actors/platform_experts.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>1.1.</b>
-                        
-                         Platform Experts
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="1.2" data-path="heads_actors/service_developers.html">
-            
-                
-                    <a href="../heads_actors/service_developers.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>1.2.</b>
-                        
-                         Service Developers
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="1.3" data-path="heads_actors/service_operators.html">
-            
-                
-                    <a href="../heads_actors/service_operators.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>1.3.</b>
-                        
-                         Service Operators
-                    </a>
-                
-            
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="2" data-path="heads_ide/README.html">
-            
-                
-                    <a href="../heads_ide/README.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.</b>
-                        
-                         HEADS IDE
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="2.1" data-path="heads_ide/design-time.html">
-            
-                
-                    <a href="../heads_ide/design-time.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.1.</b>
-                        
-                         @Design-time
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="2.2" data-path="heads_ide/runtime.html">
-            
-                
-                    <a href="../heads_ide/runtime.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.2.</b>
-                        
-                         @Runtime
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="2.3" data-path="heads_ide/installation_guide.html">
-            
-                
-                    <a href="../heads_ide/installation_guide.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.3.</b>
-                        
-                         Installation Guide
-                    </a>
-                
-            
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3" data-path="heads_methodology/README.html">
-            
-                
-                    <a href="../heads_methodology/README.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.</b>
-                        
-                         HEADS Methodology
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="3.1" data-path="heads_methodology/for_platform_experts.html">
-            
-                
-                    <a href="../heads_methodology/for_platform_experts.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.</b>
-                        
-                         For Platform Experts
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="3.1.1" data-path="heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
-            
-                
-                    <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.1.</b>
-                        
-                         Create libraries to support platform specific features / library / component
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter active" data-level="3.1.2" data-path="heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
-            
-                
-                    <a href="../heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.2.</b>
-                        
-                         Extend the ThingML transformations to compile code for a new platform
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.1.3" data-path="heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html">
-            
-                
-                    <a href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.3.</b>
-                        
-                         Extend Kevoree to deploy code for a new platform
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.1.4" data-path="heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
-            
-                
-                    <a href="../heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.4.</b>
-                        
-                         Extend Kevoree to support a new communication channel
-                    </a>
-                
-            
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.2" data-path="heads_methodology/for_service_developers.html">
-            
-                
-                    <a href="../heads_methodology/for_service_developers.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.2.</b>
-                        
-                         For Service Developers
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="3.2.1" data-path="heads_methodology/model_hd-service_logic_with_thingml_components.html">
-            
-                
-                    <a href="../heads_methodology/model_hd-service_logic_with_thingml_components.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.2.1.</b>
-                        
-                         Model HD-Service logic with ThingML components
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.2.2" data-path="heads_methodology/compile_thingml_components_to_platform_specific_code.html">
-            
-                
-                    <a href="../heads_methodology/compile_thingml_components_to_platform_specific_code.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.2.2.</b>
-                        
-                         Compile ThingML components to platform specific code
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.2.3" data-path="heads_methodology/model_hd-service_deployment_with_kevoree.html">
-            
-                
-                    <a href="../heads_methodology/model_hd-service_deployment_with_kevoree.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.2.3.</b>
-                        
-                         Model HD-Service deployment with Kevoree
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.2.4" data-path="heads_methodology/deploy_platform_specific_code_using_kevoree.html">
-            
-                
-                    <a href="../heads_methodology/deploy_platform_specific_code_using_kevoree.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.2.4.</b>
-                        
-                         Deploy platform specific code using Kevoree
-                    </a>
-                
-            
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.3" data-path="heads_methodology/for_service_operators.html">
-            
-                
-                    <a href="../heads_methodology/for_service_operators.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.3.</b>
-                        
-                         For Service Operators
-                    </a>
-                
-            
-            
-            <ul class="articles">
-                
-    
-        
-        <li class="chapter " data-level="3.3.1" data-path="heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
-            
-                
-                    <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.3.1.</b>
-                        
-                         Visualize the configuration and status of a running HD-Service
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.3.2" data-path="heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
-            
-                
-                    <a href="../heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.3.2.</b>
-                        
-                         Modify the configuration and deployment of a running HD-Service
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="3.3.3" data-path="heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
-            
-                
-                    <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.3.3.</b>
-                        
-                         Re-deploy/adapt/reconfigure a running HD-Service
-                    </a>
-                
-            
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="4" data-path="credits/README.html">
-            
-                
-                    <a href="../credits/README.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>4.</b>
-                        
-                         Credits
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter " data-level="5" data-path="license/README.html">
-            
-                
-                    <a href="../license/README.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>5.</b>
-                        
-                         License
-                    </a>
-                
-            
-            
-        </li>
-    
-
-
-        
-        <li class="divider"></li>
-        <li>
-            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
-        </li>
-        
-    </ul>
-</div>
-
-    <div class="book-body">
-        <div class="body-inner">
-            <div class="page-wrapper" tabindex="-1">
-                <div class="book-progress">
-    <div class="bar">
-        <div class="inner" style="width: 48%;min-width: 44%;"></div>
-    </div>
-    <div class="chapters">
-    
-        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
-    
-        <a href="../heads_actors/README.html" title="HEADS Actors" class="chapter done new-chapter" data-progress="1" style="left: 4%;"></a>
-    
-        <a href="../heads_actors/platform_experts.html" title="Platform Experts" class="chapter done " data-progress="1.1" style="left: 8%;"></a>
-    
-        <a href="../heads_actors/service_developers.html" title="Service Developers" class="chapter done " data-progress="1.2" style="left: 12%;"></a>
-    
-        <a href="../heads_actors/service_operators.html" title="Service Operators" class="chapter done " data-progress="1.3" style="left: 16%;"></a>
-    
-        <a href="../heads_ide/README.html" title="HEADS IDE" class="chapter done new-chapter" data-progress="2" style="left: 20%;"></a>
-    
-        <a href="../heads_ide/design-time.html" title="@Design-time" class="chapter done " data-progress="2.1" style="left: 24%;"></a>
-    
-        <a href="../heads_ide/runtime.html" title="@Runtime" class="chapter done " data-progress="2.2" style="left: 28%;"></a>
-    
-        <a href="../heads_ide/installation_guide.html" title="Installation Guide" class="chapter done " data-progress="2.3" style="left: 32%;"></a>
-    
-        <a href="../heads_methodology/README.html" title="HEADS Methodology" class="chapter done new-chapter" data-progress="3" style="left: 36%;"></a>
-    
-        <a href="../heads_methodology/for_platform_experts.html" title="For Platform Experts" class="chapter done " data-progress="3.1" style="left: 40%;"></a>
-    
-        <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html" title="Create libraries to support platform specific features / library / component" class="chapter done " data-progress="3.1.1" style="left: 44%;"></a>
-    
-        <a href="../heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html" title="Extend the ThingML transformations to compile code for a new platform" class="chapter done " data-progress="3.1.2" style="left: 48%;"></a>
-    
-        <a href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html" title="Extend Kevoree to deploy code for a new platform" class="chapter  " data-progress="3.1.3" style="left: 52%;"></a>
-    
-        <a href="../heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html" title="Extend Kevoree to support a new communication channel" class="chapter  " data-progress="3.1.4" style="left: 56%;"></a>
-    
-        <a href="../heads_methodology/for_service_developers.html" title="For Service Developers" class="chapter  " data-progress="3.2" style="left: 60%;"></a>
-    
-        <a href="../heads_methodology/model_hd-service_logic_with_thingml_components.html" title="Model HD-Service logic with ThingML components" class="chapter  " data-progress="3.2.1" style="left: 64%;"></a>
-    
-        <a href="../heads_methodology/compile_thingml_components_to_platform_specific_code.html" title="Compile ThingML components to platform specific code" class="chapter  " data-progress="3.2.2" style="left: 68%;"></a>
-    
-        <a href="../heads_methodology/model_hd-service_deployment_with_kevoree.html" title="Model HD-Service deployment with Kevoree" class="chapter  " data-progress="3.2.3" style="left: 72%;"></a>
-    
-        <a href="../heads_methodology/deploy_platform_specific_code_using_kevoree.html" title="Deploy platform specific code using Kevoree" class="chapter  " data-progress="3.2.4" style="left: 76%;"></a>
-    
-        <a href="../heads_methodology/for_service_operators.html" title="For Service Operators" class="chapter  " data-progress="3.3" style="left: 80%;"></a>
-    
-        <a href="../heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html" title="Visualize the configuration and status of a running HD-Service" class="chapter  " data-progress="3.3.1" style="left: 84%;"></a>
-    
-        <a href="../heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html" title="Modify the configuration and deployment of a running HD-Service" class="chapter  " data-progress="3.3.2" style="left: 88%;"></a>
-    
-        <a href="../heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html" title="Re-deploy/adapt/reconfigure a running HD-Service" class="chapter  " data-progress="3.3.3" style="left: 92%;"></a>
-    
-        <a href="../credits/README.html" title="Credits" class="chapter  new-chapter" data-progress="4" style="left: 96%;"></a>
-    
-        <a href="../license/README.html" title="License" class="chapter  new-chapter" data-progress="5" style="left: 100%;"></a>
-    
-    </div>
-</div>
-
+            <div class="page-wrapper" tabindex="-1" role="main">
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_19">
+                
+                    <section class="normal" id="section-">
                     
                         <h1 id="extend-the-thingml-transformations-to-compile-code-for-a-new-platform">Extend the ThingML transformations to compile code for a new platform</h1>
-<p>When new target languages, operating systems or core libraries need to be supported, the platform expect has to extend the ThingML compilers/transformation. The ThingML compiler will be made modular so that different parts can be reused and extended separately.</p>
-<p>ThingML supports for adding annotations on all elements of the language. The platform expert can define specific annotations which are exploited in the code generator in order to support platform specific features.</p>
+<p>When a platform expert needs to address a new platform, he typically needs to use the HEADS transformation framework, described in detail in D2.2. This modular Object-Oriented framework defines a set of extension points, each encapsulated as a Java class. For each different language (e.g. Java, JavaScript and C) each of these extension point typically needs to be redefined. For different dialects of the same language (e.g. C for Linux and C for the Arduino microcontrollers), the plaftorm expert can reuse already defined extension point and simply redefine a few of them to finely customize the code that is generated and accomodate with the contraints and specificities of the new platform.</p>
+<h2 id="overview-of-the-heads-transformation-framework">Overview of the HEADS transformation framework</h2>
+<p>The HEADS code generation framework is structured in a set of modules. The figure 20 below the main sub-modules of the &quot;Compilers&quot; project as well as their dependencies. The idea is to have a compilation framework on top which only depends on the HEADS Model. This framework project, detailed later in this section, captures all the code and helpers to be shared between compilers. It also defines the interfaces (as abstract classes) for all the compilers. Below, individual modules correspond to the implementation of different families of compilers (Java, JavaScript, C, etc). The idea of these modules is to package together sets of compilers which have the same target languages (and typically share quite a lot of code). Finally, one the bottom, the registry module puts together all the compilers and provides a simple utility to execute them from the command line.</p>
+<p><img src="compilers.png" alt="HEADS compilers"></p>
+<p>The idea of the code generation framework is to provide a way to independently customize different extension points. The figure below presents the 8 different extension points we have identified. Current implementation of the framework supports customizing all those extension points. However, at this point all developers are encouraged to propose and implement refactoring in order to make the APIs clear and as decoupled as possible.</p>
+<p><img src="framework.png" alt="HEADS transformation framework"></p>
+<p>The figure above presents the 8 extension points of the HEADS code generation framework. These extension points are separated in two groups: the ones corresponding to the generation of code for Types or &quot;Things&quot; and the ones corresponding to the generation of code for the Instances or Configuration. </p>
+<h3 id="actions-expressions-functions">Actions / Expressions / Functions</h3>
+<p>This part of the code generator corresponds to the code generated for actions, expressions and functions contained in a Thing. The generated code mostly depends on the language supported by the target platform (C, Java, etc.), and the code generators should be quite reusable across different platforms supporting the same language. The implementation of this extension point consists of a visitor on the Actions and Expressions part of the metamodel. New code generators can be created by inheriting from that abstract visitor and implementing all its methods. Alternatively, if only a minor modification of an existing code generator is needed, it is possible to inherit from the existing visitor and only override a subset of its methods.</p>
+<h3 id="behavior-implementation">Behavior Implementation</h3>
+<p>This part of the code generator corresponds to the code generated from the state machine structures, ECA and CEP rules contained in Things. There are main strategies and frameworks available in the literature in order to implement state machines. Depending on the capabilities, languages and libraries available on the target platform, the platform expert should have the flexibility of specifying how the behaviour is mapped to executable code. In some cases, the code generator can produce the entire code for the state machines, for example using a state machine design pattern in C++ or Java, and in other cases the code generator might rely on an existing framework available on the target platform, such as state.js for executing JavaScript state machines or ReactiveX for executing CEP queries in JavaScript or Java. To allow for this flexibility, the HEADS transformation framework should provide a set of helpers to traverse the different metaclasses responsible for modelling the behaviour and leave the freedom of creating new concrete generators and/or customizing existing code generator templates. In order to check the &quot;correctness&quot; of a particular code generator with respect to the language semantics, a set of reusable test cases has been created and should pass on any customized code generator.</p>
+<h3 id="ports-messages-thing-apis">Ports / Messages / Thing APIs</h3>
+<p>This part of the code generator corresponds to the wrapping of &quot;things&quot; into reusable components on the target platform. Depending on the target platform, the language and the context in which the application is deployed, the code generated for a &quot;thing&quot; can be tailored to generate either custom modules or to fit particular coding constraints or middleware to be used on the target platform. At this level, a Thing is a black box which should offer an API to send and receive messages through its ports. In practice this should be customized by the platform experts in order to fit the best practices and frameworks available on the target platform. As a best practice, the generated modules and APIs for things should be manually usable in case the rest of the system (or part of it) is written directly in the target language. For example, in object oriented languages, a facade and the observer pattern can be used to provide an easy to use API for the generated code. In C, a module with the proper header with structures and call-backs should be generated.</p>
+<h3 id="connectors-channels">Connectors / Channels</h3>
+<p>This part of the code generator is in charge of generating the code corresponding to the connectors and transporting messages from one Thing to the next. This is the client side of the APIs generated for the Things. In practice the connector can connect two things running in the same process on a single platform or things which are remotely connected through some sort of network (from a simple serial link to any point to point communication over a network stack). The way the code is generated should be tailored to the specific way messages should be serialized, transmitted and de-serialized. In order to customize this part of the code generator, the HEADS framework offers a set of helpers which allow listing all messages to be transported and pruning unused messages in order to generate only the necessary code. The dispatch and queuing of the messages has been separated out from the serialization and transport in order to allow for more flexibility.</p>
+<h3 id="message-queuing-fifos">Message Queuing / FIFOs</h3>
+<p>This part of the generator is related to the connectors and channels but is specifically used to tailor how messages are handled when the connectors are between two things running on the same platform. When the connectors are between things separated by a network or some sort of inter-process communication, the asynchronous nature of messages is ensured by construction. However, inside a single process specific additional code should be generated in order to store messages in FIFOs and dispatch them asynchronously. Depending on the target platform, the platform expert might reuse existing message queues provided by the operating system or a specific framework. If no message queuing service is available, like on the Arduino platform for example, the code for the queues can be fully generated.</p>
+<h3 id="scheduling-dispatch">Scheduling / Dispatch</h3>
+<p>This part of the code generator is in charge of generating the code which orchestrates the set of Things running on one platform. The generated code should activate successively the state machines of each component and handle the dispatch of messages between the components using the channels and message queues. Depending on the target platform, the scheduling can be based on the use of operating system services, threads, an active object design pattern or any other suitable strategy.</p>
+<h3 id="initialization-and-main">Initialization and &quot;Main&quot;</h3>
+<p>This part of the code generator is in charge of generating the entry point and initialization code in order to set up and start the generated application on the target platform. The HEADS transformation framework provides some helpers to list the instances to be created, the connections to be made and the set of variables to be initialized together with their initial values.</p>
+<h3 id="project-structure-build-script">Project structure / Build script</h3>
+<p>The last extension point is not generating code as such, but the required file structure and builds scripts in order to make the generated code well packaged and easy to compile and deploy on the target platform. The HEADS transformation framework provides access to all the buffers in which the code has been generated and allows creating the file structure which fits the particular target platform. For example, the Arduino compiler concatenates all the generated code into a single file which can be opened by the Arduino IDE. The Linux C code generator creates separate C modules with header files and generates a Makefile to compile the application. The Java and Scala code generators create Maven project and pom.xml files in order to allow compiling and deploying the generated code. The platform expert can customize the project structure and build scripts in order to fit the best practices of the target platform.</p>
+<h2 id="how-to-write-a-family-of-compiler-s">How to write a (family of) compiler(s)?</h2>
+<p>For the different extension point we have presented earlier, we will use concrete compilers that we have implemented to show how to write your own compiler. </p>
+<h3 id="actions-expressions-functions">Actions / Expressions / Functions</h3>
+<p>To illustrate the HEADS Action compiler and show how to implement a family of compilers, we will take the example of the C family, composed of two compilers: Linux/POSIX and Arduino. Those two compilers share most of their code and re-define a few extension points for the parts where they differ.</p>
+<p>The HEADS action language is fairly aligned with common programming languages, such as Java, C or JavaScript. Most of the actions and expressions can actually be factorized in a generic class:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CommonThingActionCompiler</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ThingActionCompiler</span> </span>{
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(ConditionalAction action, StringBuilder builder, Context ctx)</span> </span>{<span class="hljs-comment">//if(...) {...} else {...}</span>
+        builder.append(<span class="hljs-string">&quot;if(&quot;</span>);
+        generate(action.getCondition(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot;) {\n&quot;</span>);
+        generate(action.getAction(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot;\n}&quot;</span>);
+        <span class="hljs-keyword">if</span> (action.getElseAction() != <span class="hljs-keyword">null</span>) {
+            builder.append(<span class="hljs-string">&quot; else {\n&quot;</span>);
+            generate(action.getElseAction(), builder, ctx);
+            builder.append(<span class="hljs-string">&quot;\n}&quot;</span>);
+        }
+        builder.append(<span class="hljs-string">&quot;\n&quot;</span>);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(LoopAction action, StringBuilder builder, Context ctx)</span> </span>{<span class="hljs-comment">//while(...) {...}</span>
+        builder.append(<span class="hljs-string">&quot;while(&quot;</span>);
+        generate(action.getCondition(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot;) {\n&quot;</span>);
+        generate(action.getAction(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot;\n}\n&quot;</span>);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(PlusExpression expression, StringBuilder builder, Context ctx)</span> </span>{<span class="hljs-comment">// ... + ...</span>
+        generate(expression.getLhs(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot; + &quot;</span>);
+        generate(expression.getRhs(), builder, ctx);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(MinusExpression expression, StringBuilder builder, Context ctx)</span> </span>{<span class="hljs-comment">// ... - ...</span>
+        generate(expression.getLhs(), builder, ctx);
+        builder.append(<span class="hljs-string">&quot; - &quot;</span>);
+        generate(expression.getRhs(), builder, ctx);
+    }
+
+    ...
+}
+</code></pre>
+<p>The ActionCompiler class basically defines a method for each of the concepts of the HEADS action language. It is thus possible to organize a hierarchy of sub-classes that gradually redfine those methods. For example, the general C compiler just need to redefine some methods (9 in total):</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CThingActionCompiler</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">CommonThingActionCompiler</span> </span>{
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(BooleanLiteral expression, StringBuilder builder, Context ctx)</span> </span>{
+        <span class="hljs-keyword">if</span> (expression.isBoolValue())
+            builder.append(<span class="hljs-string">&quot;1&quot;</span>);
+        <span class="hljs-keyword">else</span>
+            builder.append(<span class="hljs-string">&quot;0&quot;</span>);
+    }
+    ...
+}
+</code></pre>
+<p>Finally, the Linux/POSIX compiler only needs to redefine two methods related to printing on the standard/error output:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CThingActionCompilerPosix</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">CThingActionCompiler</span> </span>{
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(ErrorAction action, StringBuilder builder, Context ctx)</span> </span>{
+        <span class="hljs-keyword">final</span> StringBuilder b = <span class="hljs-keyword">new</span> StringBuilder();
+        generate(action.getMsg(), b, ctx);
+        builder.append(<span class="hljs-string">&quot;fprintf(stderr, &quot;</span> + b.toString() + <span class="hljs-string">&quot;);\n&quot;</span>);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(PrintAction action, StringBuilder builder, Context ctx)</span> </span>{
+        <span class="hljs-keyword">final</span> StringBuilder b = <span class="hljs-keyword">new</span> StringBuilder();
+        generate(action.getMsg(), b, ctx);
+        builder.append(<span class="hljs-string">&quot;fprintf(stdout, &quot;</span> + b.toString() + <span class="hljs-string">&quot;);\n&quot;</span>);
+    }
+
+}
+</code></pre>
+<p>The same goes for the Arduino compiler:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CThingActionCompilerArduino</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">CThingActionCompiler</span> </span>{
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(ErrorAction action, StringBuilder builder, Context ctx)</span> </span>{
+        <span class="hljs-keyword">final</span> StringBuilder b = <span class="hljs-keyword">new</span> StringBuilder();
+        generate(action.getMsg(), b, ctx);
+
+        builder.append(<span class="hljs-string">&quot;// PRINT ERROR: &quot;</span> + b.toString());
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generate</span><span class="hljs-params">(PrintAction action, StringBuilder builder, Context ctx)</span> </span>{
+        <span class="hljs-keyword">final</span> StringBuilder b = <span class="hljs-keyword">new</span> StringBuilder();
+        generate(action.getMsg(), b, ctx);
+        <span class="hljs-keyword">if</span> (ctx.getCurrentConfiguration().hasAnnotation(<span class="hljs-string">&quot;arduino_stdout&quot;</span>)) {
+            builder.append(ctx.getCurrentConfiguration().annotation(<span class="hljs-string">&quot;arduino_stdout&quot;</span>).iterator().next() + <span class="hljs-string">&quot;.print(&quot;</span> + b.toString() + <span class="hljs-string">&quot;);\n&quot;</span>);
+        } <span class="hljs-keyword">else</span> {
+            builder.append(<span class="hljs-string">&quot;// PRINT: &quot;</span> + b.toString());
+        }
+    }
+
+}
+</code></pre>
+<blockquote>
+<p>In case a platform expert wants to target a language that is very different from the Java/C/JavaScript family (<em>e.g</em> LISP using a prefix/Polish notation where a typical/infix <code>a + b</code> would be expressed <code>+ a b</code>), he might need to redefine all the concepts, directly by inheriting from the top class <code>ThingActionCompiler</code></p>
+</blockquote>
+<h3 id="behavior-implementation">Behavior Implementation</h3>
+<p>Different approaches exist when it comes to the compilation of the behavior (mostly state machine-based, with optional extensions for CEP):</p>
+<ul>
+<li>target and existing framework</li>
+<li>generate all code from scratch, including the code for how to dispatch event to concurrent regions, etc</li>
+</ul>
+<p>Both approaches have pros and cons. Using a framework typically reduces the size and complexity of the code to be generated (and of the compilers), as most of the code is directly written in the framework. However, frameworks tend to be generic and might typically include more than what is needed, hence have a larger overhead. The full generative approach gives more flexibility and makes it possible to control each bits and bytes, and optimize the code for a particular state machine (whereas the framework needs to handle any possible state machine), but are typically more complex to implement.</p>
+<p>The Java and JavaScript behavior compilers use a framework-based approach, which is rather idiomatic for those language, whereas the C compiler, which is expected to generate code able to run down to small micro-controllers (2KB RAM) uses a full generative approach to avoid any accidental overhead.</p>
+<p>Because of the diversity of solutions that can be implemented for this extension point, the high level interface is rather generic so as not to constrain the platform expert:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ThingImplCompiler</span> </span>{
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateImplementation</span><span class="hljs-params">(Thing thing, Context ctx)</span> </span>{
+
+    }
+
+}
+</code></pre>
+<p>Plaform experts are however encouraged to implement the <code>generateImplementation</code>  method in a modular way, split into several sub-methods.</p>
+<p>The following code snippet instantiate a composite state by using the state.js JavaScript library:</p>
+<pre><code class="lang-java">    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateCompositeState</span><span class="hljs-params">(CompositeState c, StringBuilder builder, Context ctx)</span> </span>{
+        String containerName = ctx.getContextAnnotation(<span class="hljs-string">&quot;container&quot;</span>);
+        <span class="hljs-keyword">if</span> (c.hasSeveralRegions()) {
+            builder.append(<span class="hljs-string">&quot;var &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.Region(\&quot;&quot;</span> + c.getName() + <span class="hljs-string">&quot;\&quot;, &quot;</span> + containerName + <span class="hljs-string">&quot;);\n&quot;</span>);
+            builder.append(<span class="hljs-string">&quot;var &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;_default = new StateJS.Region(\&quot;_default\&quot;, &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;);\n&quot;</span>);
+            <span class="hljs-keyword">if</span> (c.isHistory())
+                builder.append(<span class="hljs-string">&quot;var _initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.pseudoState(\&quot;_initial\&quot;, &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;, StateJS.PseudoStateKind.ShallowHistory);\n&quot;</span>);
+            <span class="hljs-keyword">else</span>
+                builder.append(<span class="hljs-string">&quot;var _initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.pseudoState(\&quot;_initial\&quot;, &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;, StateJS.PseudoStateKind.Initial);\n&quot;</span>);
+            builder.append(<span class="hljs-string">&quot;_initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;.to(&quot;</span> + c.getInitial().qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;);\n&quot;</span>);
+            <span class="hljs-keyword">for</span> (State s : c.getSubstate()) {
+                ctx.addContextAnnotation(<span class="hljs-string">&quot;container&quot;</span>, c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;_default&quot;</span>);
+                generateState(s, builder, ctx);
+            }
+            <span class="hljs-keyword">for</span> (Region r : c.getRegion()) {
+                ctx.addContextAnnotation(<span class="hljs-string">&quot;container&quot;</span>, c.qname(<span class="hljs-string">&quot;_&quot;</span>));
+                generateRegion(r, builder, ctx);
+            }
+        } <span class="hljs-keyword">else</span> {
+            builder.append(<span class="hljs-string">&quot;var &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.State(\&quot;&quot;</span> + c.getName() + <span class="hljs-string">&quot;\&quot;, &quot;</span> + containerName + <span class="hljs-string">&quot;)&quot;</span>);
+            generateActionsForState(c, builder, ctx);
+            builder.append(<span class="hljs-string">&quot;;\n&quot;</span>);
+            <span class="hljs-keyword">for</span> (State s : c.getSubstate()) {
+                ctx.addContextAnnotation(<span class="hljs-string">&quot;container&quot;</span>, c.qname(<span class="hljs-string">&quot;_&quot;</span>));
+                generateState(s, builder, ctx);
+            }
+        }
+        <span class="hljs-keyword">if</span> (c.isHistory())
+            builder.append(<span class="hljs-string">&quot;var _initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.PseudoState(\&quot;_initial\&quot;, &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;, StateJS.PseudoStateKind.ShallowHistory);\n&quot;</span>);
+        <span class="hljs-keyword">else</span>
+            builder.append(<span class="hljs-string">&quot;var _initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot; = new StateJS.PseudoState(\&quot;_initial\&quot;, &quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;, StateJS.PseudoStateKind.Initial);\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;_initial_&quot;</span> + c.qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;.to(&quot;</span> + c.getInitial().qname(<span class="hljs-string">&quot;_&quot;</span>) + <span class="hljs-string">&quot;);\n&quot;</span>);
+    }
+</code></pre>
+<blockquote>
+<p>Based on its extensive suite of tests, the HEADS transformation framework was able to detect a few bugs in the popular <a href="https://github.com/steelbreeze/state.js" target="_blank">state.js library</a> (~200 likes on GitHub and ~1000 Download a month on NPM), that were rapidly fixed by the repository maintainer.</p>
+</blockquote>
+<h3 id="ports-messages-thing-apis">Ports / Messages / Thing APIs</h3>
+<p>The goal of this extension point is to generate proper interface so that the generated code can easily be used and integrated by third-parties, using or not the HEADS technologies. For example a timer component which can receive two messages <code>timer_start</code> and <code>timer_cancel</code> on a port timer and can emit a <code>timer_timeout</code> message on a port timer can be addressed in Java through a couple of interface (the second one serving as a callback):</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">ITimerJava_timer</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">timer_start_via_timer</span><span class="hljs-params">(<span class="hljs-keyword">short</span> TimerMsgs_timer_start_delay__var)</span></span>;
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">timer_cancel_via_timer</span><span class="hljs-params">()</span></span>;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">ITimerJava_timerClient</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">timer_timeout_from_timer</span><span class="hljs-params">()</span></span>;
+}
+</code></pre>
+<p>A third-party wanting to use this simple HEADS-enabled timer would thus, in plain Java implement <code>ITimerJava_timerClient</code> interface, and after instantiating a timer, register as a listener:</p>
+<pre><code class="lang-java">TimerJava timer = <span class="hljs-keyword">new</span> TimerJava().buildBehavior();
+timer.registerOnTimer(<span class="hljs-keyword">new</span> ITimerJava_timerClient(){
+    <span class="hljs-annotation">@Override</span> 
+    timer_timeout_from_timer(){
+        System.out.println(<span class="hljs-string">&quot;timeout!&quot;</span>);
+    }
+});
+timer.init();
+timer.start();
+timer.timer_start_via_timer(<span class="hljs-number">5000</span>);<span class="hljs-comment">//timeout! to be displayed in 5000 ms</span>
+</code></pre>
+<p>Similarly in JavaScript:</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Public methods on the timer</span>
+TimerJS.prototype.timer_startOntimer = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">delay</span>) </span>{
+...
+};
+
+TimerJS.prototype.timer_cancelOntimer = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+...
+};
+
+<span class="hljs-keyword">var</span> timer = <span class="hljs-keyword">new</span> TimerJS();
+timer.build();
+timer.getTimer_timeoutontimerListeners().push(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;timeout!&quot;</span>);});
+timer.init();
+timer.timer_startOntimer(<span class="hljs-number">5000</span>);<span class="hljs-comment">//timeout! to be displayed in 5000 ms</span>
+</code></pre>
+<p>And in C:</p>
+<pre><code class="lang-C">void TimerLinux_handle_timer_timer_start(struct TimerLinux_Instance *_instance, int delay);
+void TimerLinux_handle_timer_timer_cancel(struct TimerLinux_Instance *_instance);
+void register_external_TimerLinux_send_timer_timer_timeout_listener(void (*_listener)(struct TimerLinux_Instance *));
+
+void printCallBack(){
+    fprintf(&quot;timeout!\n&quot;);
+}
+struct TimerLinux_Instance TestTimerLinux_timer_var;
+register_TimerLinux_send_timer_timer_timeout_listener(&amp;printCallBack);
+TimerLinux_handle_timer_timer_start(&amp;TestTimerLinux_timer_var, 5000);//timeout! to be displayed in 5000 ms
+</code></pre>
+<p>As this code is only structural (basically a set of methods), it is fairly easy to generate. Here is how we generate Java interfaces of components:</p>
+<pre><code class="lang-java">    <span class="hljs-comment">//Generate interfaces that the thing will implement, for others to call this API</span>
+    <span class="hljs-keyword">for</span> (Port p : thing.allPorts()) {
+        <span class="hljs-keyword">if</span> (!p.isDefined(<span class="hljs-string">&quot;public&quot;</span>, <span class="hljs-string">&quot;false&quot;</span>) &amp;&amp; p.getReceives().size() &gt; <span class="hljs-number">0</span>) {
+            <span class="hljs-keyword">final</span> StringBuilder builder = ctx.getBuilder(src + <span class="hljs-string">&quot;/api/I&quot;</span> + ctx.firstToUpper(thing.getName()) + <span class="hljs-string">&quot;_&quot;</span> + p.getName() + <span class="hljs-string">&quot;.java&quot;</span>);
+            builder.append(<span class="hljs-string">&quot;package &quot;</span> + pack + <span class="hljs-string">&quot;.api;\n\n&quot;</span>);
+            builder.append(<span class="hljs-string">&quot;import &quot;</span> + pack + <span class="hljs-string">&quot;.api.*;\n\n&quot;</span>);
+            builder.append(<span class="hljs-string">&quot;public interface &quot;</span> + <span class="hljs-string">&quot;I&quot;</span> + ctx.firstToUpper(thing.getName()) + <span class="hljs-string">&quot;_&quot;</span> + p.getName() + <span class="hljs-string">&quot;{\n&quot;</span>);
+            <span class="hljs-keyword">for</span> (Message m : p.getReceives()) {
+                builder.append(<span class="hljs-string">&quot;void &quot;</span> + m.getName() + <span class="hljs-string">&quot;_via_&quot;</span> + p.getName() + <span class="hljs-string">&quot;(&quot;</span>);
+                JavaHelper.generateParameter(m, builder, ctx);
+                builder.append(<span class="hljs-string">&quot;);\n&quot;</span>);
+            }
+            builder.append(<span class="hljs-string">&quot;}&quot;</span>);
+        }
+    }
+</code></pre>
+<h3 id="connectors-channels">Connectors / Channels</h3>
+<p>In HEADS, connectors and channels are managed by the HEADS runtime. By default the generated code is &quot;standalone&quot; and can be run without the HEADS runtime. To be able to run on the HEADS runtime, this require some wrappers around the implementation. Those wrappers are generated and only interact with the public interface of the component (as a developper would normally write). For example, the following code generates for the JavaScript HEADS runtime. A more conceptual view of this wrapping is provided in D2.2.</p>
+<pre><code class="lang-java">    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateWrapper</span><span class="hljs-params">(Context ctx, Configuration cfg)</span> </span>{
+        <span class="hljs-keyword">final</span> StringBuilder builder = ctx.getBuilder(cfg.getName() + <span class="hljs-string">&quot;/lib/&quot;</span> + cfg.getName() + <span class="hljs-string">&quot;.js&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;var AbstractComponent = require(&apos;kevoree-entities&apos;).AbstractComponent;\n&quot;</span>);
+
+        <span class="hljs-keyword">for</span> (Thing t : cfg.allThings()) {<span class="hljs-comment">//load of the fined-grained component into the coarse grained component</span>
+            builder.append(<span class="hljs-string">&quot;var &quot;</span> + t.getName() + <span class="hljs-string">&quot; = require(&apos;./&quot;</span> + t.getName() + <span class="hljs-string">&quot;&apos;);\n&quot;</span>);
+        }
+
+        builder.append(<span class="hljs-string">&quot;/**\n* Kevoree component\n* @type {&quot;</span> + cfg.getName() + <span class="hljs-string">&quot;}\n*/\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;var &quot;</span> + cfg.getName() + <span class="hljs-string">&quot; = AbstractComponent.extend({\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;toString: &apos;&quot;</span> + cfg.getName() + <span class="hljs-string">&quot;&apos;,\n&quot;</span>);
+
+        builder.append(<span class="hljs-string">&quot;construct: function() {\n&quot;</span>);
+        JSCfgMainGenerator.generateInstances(cfg, builder, ctx, <span class="hljs-keyword">true</span>);
+        <span class="hljs-keyword">for</span> (Map.Entry e : cfg.danglingPorts().entrySet()) {
+            <span class="hljs-keyword">final</span> Instance i = (Instance) e.getKey();
+            <span class="hljs-keyword">for</span> (Port p : (List&lt;Port&gt;) e.getValue()) {
+                <span class="hljs-keyword">for</span> (Message m : p.getSends()) {
+                    builder.append(<span class="hljs-string">&quot;this.&quot;</span> + i.getName() + <span class="hljs-string">&quot;.get&quot;</span> + ctx.firstToUpper(m.getName()) + <span class="hljs-string">&quot;on&quot;</span> + p.getName() + <span class="hljs-string">&quot;Listeners().push(this.&quot;</span> + shortName(i, p, m) + <span class="hljs-string">&quot;_proxy.bind(this));\n&quot;</span>);
+                }
+            }
+        }
+        builder.append(<span class="hljs-string">&quot;},\n\n&quot;</span>);
+
+
+        builder.append(<span class="hljs-string">&quot;start: function (done) {\n&quot;</span>);
+        <span class="hljs-keyword">for</span> (Instance i : cfg.danglingPorts().keySet()) {
+            builder.append(<span class="hljs-string">&quot;this.&quot;</span> + i.getName() + <span class="hljs-string">&quot;._init();\n&quot;</span>);
+        }
+        builder.append(<span class="hljs-string">&quot;done();\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;},\n\n&quot;</span>);
+
+
+        builder.append(<span class="hljs-string">&quot;stop: function (done) {\n&quot;</span>);
+        <span class="hljs-keyword">for</span> (Instance i : cfg.allInstances()) {
+            builder.append(<span class="hljs-string">&quot;this.&quot;</span> + i.getName() + <span class="hljs-string">&quot;._stop();\n&quot;</span>);
+        }
+        builder.append(<span class="hljs-string">&quot;done();\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;}&quot;</span>);
+
+        <span class="hljs-keyword">for</span> (Map.Entry e : cfg.danglingPorts().entrySet()) {
+            <span class="hljs-keyword">final</span> Instance i = (Instance) e.getKey();
+            <span class="hljs-keyword">for</span> (Port p : (List&lt;Port&gt;) e.getValue()) {
+                <span class="hljs-keyword">for</span> (Message m : p.getReceives()) {
+                    builder.append(<span class="hljs-string">&quot;,\nin_&quot;</span> + shortName(i, p, m) + <span class="hljs-string">&quot;_in: function (msg) {\n&quot;</span>);
+                    builder.append(<span class="hljs-string">&quot;this.&quot;</span> + i.getName() + <span class="hljs-string">&quot;.receive&quot;</span> + m.getName() + <span class="hljs-string">&quot;On&quot;</span> + p.getName() + <span class="hljs-string">&quot;(msg.split(&apos;;&apos;));\n&quot;</span>);
+                    builder.append(<span class="hljs-string">&quot;}&quot;</span>);
+                }
+            }
+        }
+
+        <span class="hljs-keyword">for</span> (Map.Entry e : cfg.danglingPorts().entrySet()) {
+            <span class="hljs-keyword">final</span> Instance i = (Instance) e.getKey();
+            <span class="hljs-keyword">for</span> (Port p : (List&lt;Port&gt;) e.getValue()) {
+                <span class="hljs-keyword">for</span> (Message m : p.getSends()) {
+                    builder.append(<span class="hljs-string">&quot;,\n&quot;</span> + shortName(i, p, m) + <span class="hljs-string">&quot;_proxy: function() {this.out_&quot;</span> + shortName(i, p, m) + <span class="hljs-string">&quot;_out(&quot;</span>);
+                    <span class="hljs-keyword">int</span> index = <span class="hljs-number">0</span>;
+                    <span class="hljs-keyword">for</span> (Parameter pa : m.getParameters()) {
+                        <span class="hljs-keyword">if</span> (index &gt; <span class="hljs-number">0</span>)
+                            builder.append(<span class="hljs-string">&quot; + &apos;;&apos; + &quot;</span>);
+                        builder.append(<span class="hljs-string">&quot;arguments[&quot;</span> + index + <span class="hljs-string">&quot;]&quot;</span>);
+                        index++;
+                    }
+                    <span class="hljs-keyword">if</span> (index &gt; <span class="hljs-number">1</span>)
+                        builder.append(<span class="hljs-string">&quot;&apos;&apos;&quot;</span>);
+                    builder.append(<span class="hljs-string">&quot;);}&quot;</span>);
+                    builder.append(<span class="hljs-string">&quot;,\nout_&quot;</span> + shortName(i, p, m) + <span class="hljs-string">&quot;_out: function(msg) {/* This will be overwritten @runtime by Kevoree JS */}&quot;</span>);
+                }
+            }
+        }
+        builder.append(<span class="hljs-string">&quot;});\n\n&quot;</span>);
+        builder.append(<span class="hljs-string">&quot;module.exports = &quot;</span> + cfg.getName() + <span class="hljs-string">&quot;;\n&quot;</span>);
+    }
+</code></pre>
+<h3 id="message-queuing-scheduling-dispatch">Message queuing / Scheduling / Dispatch</h3>
+<p>This extension point allows customizing the code generated for handling how the messages and the control are distributed among of set of component instances. From a semantic point of view, each component instance is an independent process which exchanges messages with other components in an asynchronous way. To implement this semantic, a wide range of alternatives for queuing messages, distributing them to the components can be used depending on the capabilities of the targeted platforms. Features for message exchange and multi-tasking are typically provided by operating systems or middleware platforms. In the case of resource constrained devices with no operating system, code has to be generated to fully handle the scheduling and message dispatch between components.</p>
+<p>The API for customizing the code generator for those aspect is in class &quot;org.thingml.compilers.configuration.CfgMainGenerator&quot; and its sub-classes for the different platforms.</p>
+<p>The example bellow shows how messages are queued when generating code for microcontrollers. The generated code includes a compact FIFO implementation for storing messages. The messages are serialized in the FIFO when they are emitted by a component and later processed and dispatched to the receiving components.</p>
+<pre><code>// Enqueue of messages HelloTimer::timer::timer_start
+void enqueue_HelloTimer_send_timer_timer_start(struct HelloTimer_Instance *_instance, int delay){
+    if ( fifo_byte_available() &gt; 6 ) {
+
+        _fifo_enqueue( (3 &gt;&gt; 8) &amp; 0xFF );
+        _fifo_enqueue( 3 &amp; 0xFF );
+
+        // ID of the source port of the instance
+        _fifo_enqueue( (_instance-&gt;id_timer &gt;&gt; 8) &amp; 0xFF );
+        _fifo_enqueue( _instance-&gt;id_timer &amp; 0xFF );
+
+        // parameter delay
+        union u_delay_t {
+            int p;
+            byte bytebuffer[2];
+        } u_delay;
+        u_delay.p = delay;
+        _fifo_enqueue( u_delay.bytebuffer[1] &amp; 0xFF );
+        _fifo_enqueue( u_delay.bytebuffer[0] &amp; 0xFF );
+    }
+}
+</code></pre><p>The following listing shows how the messages are dispatched from the FIFO to the appropriate component.</p>
+<pre><code>void processMessageQueue() {
+    if (fifo_empty()) return; // return if there is nothing to do
+
+    byte mbuf[4];
+    uint8_t mbufi = 0;
+
+    // Read the code of the next port/message in the queue
+    uint16_t code = fifo_dequeue() &lt;&lt; 8;
+
+    code += fifo_dequeue();
+
+    // Switch to call the appropriate handler
+    switch(code) {
+        case 2:
+            while (mbufi &lt; 2) mbuf[mbufi++] = fifo_dequeue();
+            dispatch_timer_cancel((mbuf[0] &lt;&lt; 8) + mbuf[1] /* instance port*/);
+            break;
+        case 3:
+            while (mbufi &lt; 4) mbuf[mbufi++] = fifo_dequeue();
+            union u_timer_start_delay_t {
+                int p;
+                byte bytebuffer[2];
+            } u_timer_start_delay;
+            u_timer_start_delay.bytebuffer[1] = mbuf[2];
+            u_timer_start_delay.bytebuffer[0] = mbuf[3];
+            dispatch_timer_start((mbuf[0] &lt;&lt; 8) + mbuf[1] /* instance port*/,
+            u_timer_start_delay.p /* delay */ );
+            break;
+        case 1:
+            while (mbufi &lt; 2) mbuf[mbufi++] = fifo_dequeue();
+            dispatch_timer_timeout((mbuf[0] &lt;&lt; 8) + mbuf[1] /* instance port*/);
+            break;
+    }
+}
+</code></pre><p>In the Arduino code generator, the main loop of the scheduler simply activates the components which use polling and processes messages from the queue.  The component receiving a message is given the CPU for processing this message. Any message produced by the component is queued and will be later processed by the receiver. This strategy ensures that each component gets activated in turn and that the processing of a message in executed as a whole. In the case of microcontrollers, it can be interrupted by microcontroller interrupts but not by the processing of another message.</p>
+<pre><code>void loop() {
+    TimerArduino_handle_Polling_poll(&amp;TestTimerArduino_timer_var);
+    HelloTimer_handle_empty_event(&amp;TestTimerArduino_client_var);
+    processMessageQueue();
+}
+</code></pre><p>Depending on the level of dynamicity required, code can be generated statically for one particular configuration (and set of connector), but even on tiny and small targets code can be generated to handle dynamically dispatching messages according to a dynamic set of connectors. The code bellow illustrates how it is done in the Arduino compiler.</p>
+<pre><code>//Dynamic dispatch for message timer_start
+void dispatch_timer_start(uint16_t sender, int param_delay) {
+void executor_dispatch_timer_start(struct Msg_Handler ** head, struct Msg_Handler ** tail) {
+struct Msg_Handler ** cur = head;
+while (cur != NULL) {
+   void (*handler)(void *, int param_delay) = NULL;
+   int i;
+   for(i = 0; i &lt; (**cur).nb_msg; i++) {
+       if((**cur).msg[i] == 2) {
+           handler = (void (*) (void *, int)) (**cur).msg_handler[i];
+           break;
+       }
+   }
+   if(handler != NULL) {
+       handler((**cur).instance, param_delay);
+}
+   if(cur == tail){
+       cur = NULL;}
+   else {
+   cur++;}
+}
+}
+if (sender == TestTimerC_client_var.id_timer) {
+executor_dispatch_timer_start(TestTimerC_client_var.timer_receiver_list_head, TestTimerC_client_var.timer_receiver_list_tail);}
+}
+</code></pre><h3 id="initialization-and-main">Initialization and &quot;Main&quot;</h3>
+<p>This extension point is responsible for instantiating components and properly set the attributes of these instances with proper values. It is also responsible for connecting instances together. Here is an example of a &quot;main&quot; in JavaScript:</p>
+<pre><code class="lang-js"><span class="hljs-comment">//import types</span>
+<span class="hljs-keyword">var</span> TimerJS = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./TimerJS&apos;</span>);
+<span class="hljs-keyword">var</span> SimpleTimerClient = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./SimpleTimerClient&apos;</span>);
+
+<span class="hljs-comment">//Create and initialize instances</span>
+<span class="hljs-keyword">var</span> TestTimerJS_timer = <span class="hljs-keyword">new</span> TimerJS(<span class="hljs-string">&quot;TestTimerJS_timer&quot;</span>, <span class="hljs-literal">false</span>);
+TestTimerJS_timer.setThis(TestTimerJS_timer);
+TestTimerJS_timer.build();
+<span class="hljs-keyword">var</span> TestTimerJS_client = <span class="hljs-keyword">new</span> SimpleTimerClient(<span class="hljs-string">&quot;TestTimerJS_client&quot;</span>, <span class="hljs-number">1000</span>, <span class="hljs-number">5000</span>, <span class="hljs-literal">true</span>);
+TestTimerJS_client.setThis(TestTimerJS_client);
+TestTimerJS_client.build();
+
+<span class="hljs-comment">//Connect instances together</span>
+TestTimerJS_timer.getTimer_timeoutontimerListeners().push(TestTimerJS_client.receivetimer_timeoutOntimer.bind(TestTimerJS_client));
+TestTimerJS_client.getTimer_startontimerListeners().push(TestTimerJS_timer.receivetimer_startOntimer.bind(TestTimerJS_timer));
+TestTimerJS_client.getTimer_cancelontimerListeners().push(TestTimerJS_timer.receivetimer_cancelOntimer.bind(TestTimerJS_timer));
+
+<span class="hljs-comment">//start instances</span>
+TestTimerJS_timer._init();
+TestTimerJS_client._init();
+
+<span class="hljs-comment">//register hookup to properly stop instances</span>
+process.on(<span class="hljs-string">&apos;SIGINT&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Stopping components...&quot;</span>);
+    TestTimerJS_timer._stop();
+    TestTimerJS_client._stop();
+});
+</code></pre>
+<p>The plaform expert needs to extend the following class to generate the main:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CfgMainGenerator</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateMainAndInit</span><span class="hljs-params">(Configuration cfg, ThingMLModel model, Context ctx)</span> </span>{
+    }
+}
+</code></pre>
+<p>The following code snippet illustrate how to generate the code for the connectors:</p>
+<pre><code class="lang-java">        <span class="hljs-keyword">for</span> (Connector c : cfg.allConnectors()) {
+            <span class="hljs-keyword">for</span> (Message req : c.getRequired().getReceives()) {
+                <span class="hljs-keyword">for</span> (Message prov : c.getProvided().getSends()) {
+                    <span class="hljs-keyword">if</span> (req.getName().equals(prov.getName())) {
+                        builder.append(prefix + c.getSrv().getInstance().getName() + <span class="hljs-string">&quot;.get&quot;</span> + ctx.firstToUpper(prov.getName()) + <span class="hljs-string">&quot;on&quot;</span> + c.getProvided().getName() + <span class="hljs-string">&quot;Listeners().push(&quot;</span>);
+                        builder.append(prefix + c.getCli().getInstance().getName() + <span class="hljs-string">&quot;.receive&quot;</span> + req.getName() + <span class="hljs-string">&quot;On&quot;</span> + c.getRequired().getName() + <span class="hljs-string">&quot;.bind(&quot;</span> + prefix + c.getCli().getInstance().getName() + <span class="hljs-string">&quot;)&quot;</span>);
+                        builder.append(<span class="hljs-string">&quot;);\n&quot;</span>);
+                        <span class="hljs-keyword">break</span>;
+                    }
+                }
+            }
+            <span class="hljs-keyword">for</span> (Message req : c.getProvided().getReceives()) {
+                <span class="hljs-keyword">for</span> (Message prov : c.getRequired().getSends()) {
+                    <span class="hljs-keyword">if</span> (req.getName().equals(prov.getName())) {
+                        builder.append(prefix + c.getCli().getInstance().getName() + <span class="hljs-string">&quot;.get&quot;</span> + ctx.firstToUpper(prov.getName()) + <span class="hljs-string">&quot;on&quot;</span> + c.getRequired().getName() + <span class="hljs-string">&quot;Listeners().push(&quot;</span>);
+                        builder.append(prefix + c.getSrv().getInstance().getName() + <span class="hljs-string">&quot;.receive&quot;</span> + req.getName() + <span class="hljs-string">&quot;On&quot;</span> + c.getProvided().getName() + <span class="hljs-string">&quot;.bind(&quot;</span> + prefix + c.getSrv().getInstance().getName() + <span class="hljs-string">&quot;)&quot;</span>);
+                        builder.append(<span class="hljs-string">&quot;);\n&quot;</span>);
+                        <span class="hljs-keyword">break</span>;
+                    }
+                }
+            }
+        }
+</code></pre>
+<h3 id="project-structure-build-script">Project structure / Build script</h3>
+<p>To make the HEADS components easily reusable, with our without the HEADS technologies, they must be properly package. For Java, we for example generate proper Maven project, for JavaScript, NPM projects, and for C, Makefile. If a platform expert would like to use Gradle instead of manage, he would need to re-define the following extension point:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CfgBuildCompiler</span> </span>{
+
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateBuildScript</span><span class="hljs-params">(Configuration cfg, Context ctx)</span> </span>{
+        <span class="hljs-keyword">throw</span> (<span class="hljs-keyword">new</span> UnsupportedOperationException(<span class="hljs-string">&quot;Project structure and build scripts are platform-specific.&quot;</span>));
+    }
+}
+</code></pre>
+<p>Here is for example how we generate a <code>package.json</code> for NPM projects:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">JSCfgBuildCompiler</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">CfgBuildCompiler</span> </span>{
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateBuildScript</span><span class="hljs-params">(Configuration cfg, Context ctx)</span> </span>{
+        <span class="hljs-keyword">try</span> {
+            <span class="hljs-keyword">final</span> InputStream input = <span class="hljs-keyword">this</span>.getClass().getClassLoader().getResourceAsStream(<span class="hljs-string">&quot;javascript/lib/package.json&quot;</span>);
+            <span class="hljs-keyword">final</span> List&lt;String&gt; packLines = IOUtils.readLines(input);
+            String pack = <span class="hljs-string">&quot;&quot;</span>;
+            <span class="hljs-keyword">for</span> (String line : packLines) {
+                pack += line + <span class="hljs-string">&quot;\n&quot;</span>;
+            }
+            input.close();
+            pack = pack.replace(<span class="hljs-string">&quot;&lt;NAME&gt;&quot;</span>, cfg.getName());
+
+            <span class="hljs-keyword">final</span> JsonObject json = JsonObject.readFrom(pack);
+            <span class="hljs-keyword">final</span> JsonValue deps = json.get(<span class="hljs-string">&quot;dependencies&quot;</span>);
+            <span class="hljs-keyword">for</span> (Thing t : cfg.allThings()) {
+                <span class="hljs-keyword">for</span> (String dep : t.annotation(<span class="hljs-string">&quot;js_dep&quot;</span>)) {
+                    deps.asObject().add(dep.split(<span class="hljs-string">&quot;:&quot;</span>)[<span class="hljs-number">0</span>].trim(), dep.split(<span class="hljs-string">&quot;:&quot;</span>)[<span class="hljs-number">1</span>].trim());
+                }
+
+            }
+
+            <span class="hljs-keyword">boolean</span> addCEPdeps = <span class="hljs-keyword">false</span>;
+            <span class="hljs-keyword">boolean</span> addDebugDeps = !ctx.getCompiler().getDebugProfiles().isEmpty();
+
+            <span class="hljs-keyword">for</span> (Thing t : cfg.allThings()) {
+                <span class="hljs-keyword">if</span> (t.getStreams().size() &gt; <span class="hljs-number">0</span>) {
+                    addCEPdeps = <span class="hljs-keyword">true</span>;
+                }
+            }
+
+            <span class="hljs-keyword">if</span>(addCEPdeps) {
+                deps.asObject().add(<span class="hljs-string">&quot;rx&quot;</span>, <span class="hljs-string">&quot;^2.5.3&quot;</span>);
+                deps.asObject().add(<span class="hljs-string">&quot;events&quot;</span>, <span class="hljs-string">&quot;^1.0.2&quot;</span>);
+            }
+
+            <span class="hljs-keyword">if</span>(addDebugDeps) {
+                deps.asObject().add(<span class="hljs-string">&quot;colors&quot;</span>, <span class="hljs-string">&quot;^1.1.2&quot;</span>);
+            }
+
+            <span class="hljs-keyword">final</span> File f = <span class="hljs-keyword">new</span> File(ctx.getOutputDirectory() + <span class="hljs-string">&quot;/&quot;</span> + cfg.getName() + <span class="hljs-string">&quot;/package.json&quot;</span>);
+            f.setWritable(<span class="hljs-keyword">true</span>);
+            <span class="hljs-keyword">final</span> PrintWriter w = <span class="hljs-keyword">new</span> PrintWriter(<span class="hljs-keyword">new</span> FileWriter(f));
+            w.println(json.toString());
+            w.close();
+        } <span class="hljs-keyword">catch</span> (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+}
+</code></pre>
+<p>This would produce this kind of output:</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;TestTimerJS&quot;</span>,
+    <span class="hljs-string">&quot;version&quot;</span> : <span class="hljs-string">&quot;1.0.0&quot;</span>,
+    <span class="hljs-string">&quot;description&quot;</span> : <span class="hljs-string">&quot;TestTimerJS configuration generated from ThingML&quot;</span>,
+    <span class="hljs-string">&quot;main&quot;</span> : <span class="hljs-string">&quot;main.js&quot;</span>,
+    <span class="hljs-string">&quot;private&quot;</span> : <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;dependencies&quot;</span> : {
+        <span class="hljs-string">&quot;state.js&quot;</span> : <span class="hljs-string">&quot;^5.3.4&quot;</span>,
+        <span class="hljs-string">&quot;colors&quot;</span> : <span class="hljs-string">&quot;^1.1.2&quot;</span>
+    },
+    <span class="hljs-string">&quot;devDependencies&quot;</span> : {},
+    <span class="hljs-string">&quot;scripts&quot;</span> : {}
+
+}
+</code></pre>
+<p>Note that this compiler (as well as others) uses a template to simplify the code generation, since most of the content of <code>package.json</code> is fixed:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;&lt;NAME&gt;&quot;</span>,
+  <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;1.0.0&quot;</span>,
+  <span class="hljs-string">&quot;description&quot;</span>: <span class="hljs-string">&quot;&lt;NAME&gt; configuration generated from ThingML&quot;</span>,
+  <span class="hljs-string">&quot;main&quot;</span>: <span class="hljs-string">&quot;main.js&quot;</span>,
+  <span class="hljs-string">&quot;private&quot;</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-string">&quot;dependencies&quot;</span>: {
+    <span class="hljs-string">&quot;state.js&quot;</span>: <span class="hljs-string">&quot;^5.3.4&quot;</span>
+  },
+  <span class="hljs-string">&quot;devDependencies&quot;</span>: {
+  },
+  <span class="hljs-string">&quot;scripts&quot;</span>: {
+  }
+}
+</code></pre>
+<h2 id="lightweight-extension-to-existing-compilers">Lightweight extension to existing compilers</h2>
+<p>When new target languages, operating systems or core libraries need to be supported, the platform expert has to extend the ThingML compilers/transformation. The ThingML compilers are modular so that different parts can be reused and extended separately.</p>
+<p>ThingML supports for adding annotations on most elements of the language. The platform expert can define specific annotations which are exploited in the code generator in order to support platform specific features.</p>
 <p>For example, a thing dealing with IO typically needs to listen continuously for inputs to arrive. This behavior should be executed in a separate thread so that it does not block or slow down the execution of the core business logic. This multi-threaded behavior can be achieved in the Linux/C compiler using the <code>@fork_linux_thread</code> annotation.</p>
 <pre><code>function serial_receiver_process()
 @fork_linux_thread &quot;true&quot;
@@ -662,10 +1431,20 @@ while (true) {
     //read bytes from serial port
 }
 end
-</code></pre><p>The C compiler will interprete this annotation and generate multi-threaded code, which <a href="(https://github.com/SINTEF-9012/ThingML/blob/master/org.thingml.compilers/src/main/resources/ctemplates/fork.c">wraps the code</a>) normally generated by the compiler without that annotation.</p>
+</code></pre><p>The C compiler will interprete this annotation and generate multi-threaded code, which <a href="(https:/github.com/SINTEF-9012/ThingML/blob/master/compilers/c/src/main/resources/ctemplates/fork.c">wraps the code</a>) normally generated by the compiler without that annotation:</p>
+<pre><code class="lang-java">    <span class="hljs-keyword">if</span> (func.isDefined(<span class="hljs-string">&quot;fork_linux_thread&quot;</span>, <span class="hljs-string">&quot;true&quot;</span>)) {
+        generateCforThingLinuxThread(func, thing, builder, ctx);
+    } <span class="hljs-keyword">else</span> { <span class="hljs-comment">// Use the default function generator</span>
+        generateCforThingDirect(func, thing, builder, ctx);
+    }
+</code></pre>
+<blockquote>
+<p>If an annotation is intensively used and relevant for most compilers, the concept can be promoted directly into the language so that it can be benefit from better tool support (annotations being simple string-based key/value entries). The extension of the HEADS modelling language is however beyond the scope of the HEADS project, but interested reader can read about the way we extended the language to support Complex Event Processing. </p>
+</blockquote>
 
                     
                     </section>
+                
                 
                 </div>
             </div>
@@ -675,26 +1454,17 @@ end
         <a href="../heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html" class="navigation navigation-prev " aria-label="Previous page: Create libraries to support platform specific features / library / component"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html" class="navigation navigation-next " aria-label="Next page: Extend Kevoree to deploy code for a new platform"><i class="fa fa-angle-right"></i></a>
+        <a href="../heads_methodology/kevoree-platform-integration/index.html" class="navigation navigation-next " aria-label="Next page: Extend Kevoree to deploy code for a new platform"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
 <script src="../gitbook/app.js"></script>
-
-    
-    <script src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-    
-    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
-    
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {};
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>

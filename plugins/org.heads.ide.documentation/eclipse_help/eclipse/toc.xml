@@ -2,47 +2,47 @@
 
 <!DOCTYPE toc
   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<toc label="Heads Ide Guide" href="eclipse_help/eclipse/methodology/index.html">
+
+
+<toc label="Heads Ide Guide"  href="eclipse_help/eclipse/methodology/index.html">
         
-<topic class="chapter done new-chapter"  label="Introduction" href="eclipse_help/eclipse/methodology/index.html"></topic>
-<topic href="eclipse_help/eclipse/methodology/heads_actors/README.html"  label="HEADS Actors" class="chapter  new-chapter" data-progress="1" style="left: 4%;">  
-        <topic href="eclipse_help/eclipse/methodology/heads_actors/platform_experts.html"   label="Platform Experts" class="chapter  " data-progress="1.1" style="left: 8%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_actors/service_developers.html" label="Service Developers" class="chapter  " data-progress="1.2" style="left: 12%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_actors/service_operators.html" label="Service Operators" class="chapter  " data-progress="1.3" style="left: 16%;"></topic>
-</topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_ide/README.html" label="HEADS IDE" class="chapter  new-chapter" data-progress="2" style="left: 20%;">
-        <topic href="eclipse_help/eclipse/methodology/heads_ide/design-time.html" label="@Design-time" class="chapter  " data-progress="2.1" style="left: 24%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_ide/runtime.html" label="@Runtime" class="chapter  " data-progress="2.2" style="left: 28%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_ide/installation_guide.html" label="Installation Guide" class="chapter  " data-progress="2.3" style="left: 32%;"></topic>
+<topic class="chapter done new-chapter"  label="Introduction"  href="eclipse_help/eclipse/methodology/index.html"></topic>
+<topic  class="chapter" label="HEADS Actors"  href="eclipse_help/eclipse/methodology/heads_actors/index.html">
+<topic  class="chapter " label="Platform Experts"  href="eclipse_help/eclipse/methodology/heads_actors/platform_experts.html"/>
+<topic  class="chapter " label="Service Developers" href="eclipse_help/eclipse/methodology/heads_actors/service_developers.html"/>
+<topic  class="chapter " label="Service Operators" href="eclipse_help/eclipse/methodology/heads_actors/service_operators.html"/>
 </topic>    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/README.html" label="HEADS Methodology" class="chapter  new-chapter" data-progress="3" style="left: 36%;">
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/for_platform_experts.html" label="For Platform Experts" class="chapter  " data-progress="3.1" style="left: 40%;">
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html" label="Create libraries to support platform specific features / library / component" class="chapter  " data-progress="3.1.1" style="left: 44%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html" label="Extend the ThingML transformations to compile code for a new platform" class="chapter  " data-progress="3.1.2" style="left: 48%;"></topic>
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/extend_kevoree_to_deploy_code_for_a_new_platform.html" label="Extend Kevoree to deploy code for a new platform" class="chapter  " data-progress="3.1.3" style="left: 52%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html" label="Extend Kevoree to support a new communication channel" class="chapter  " data-progress="3.1.4" style="left: 56%;"></topic>
+
+<topic  class="chapter "label="HEADS IDE" href="eclipse_help/eclipse/methodology/heads_ide/index.html">
+<topic  class="chapter " label="@Design-time" href="eclipse_help/eclipse/methodology/heads_ide/design-time.html"/>
+<topic  class="chapter " label="@Runtime" href="eclipse_help/eclipse/methodology/heads_ide/runtime.html"/>
+<topic  class="chapter " label="Installation Guide" href="eclipse_help/eclipse/methodology/heads_ide/installation_guide.html"/>
 </topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/for_service_developers.html" label="For Service Developers" class="chapter  " data-progress="3.2" style="left: 60%;">
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/model_hd-service_logic_with_thingml_components.html" label="Model HD-Service logic with ThingML components" class="chapter  " data-progress="3.2.1" style="left: 64%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/compile_thingml_components_to_platform_specific_code.html" label="Compile ThingML components to platform specific code" class="chapter  " data-progress="3.2.2" style="left: 68%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/model_hd-service_deployment_with_kevoree.html" label="Model HD-Service deployment with Kevoree" class="chapter  " data-progress="3.2.3" style="left: 72%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/deploy_platform_specific_code_using_kevoree.html" label="Deploy platform specific code using Kevoree" class="chapter  " data-progress="3.2.4" style="left: 76%;"></topic>
-</topic>    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/for_service_operators.html" label="For Service Operators" class="chapter  " data-progress="3.3" style="left: 80%;">
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html" label="Visualize the configuration and status of a running HD-Service" class="chapter  " data-progress="3.3.1" style="left: 84%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html" label="Modify the configuration and deployment of a running HD-Service" class="chapter  " data-progress="3.3.2" style="left: 88%;"></topic>
-    
-        <topic href="eclipse_help/eclipse/methodology/heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html" label="Re-deploy/adapt/reconfigure a running HD-Service" class="chapter  " data-progress="3.3.3" style="left: 92%;"></topic>
+
+<topic label="HEADS Methodology" href="eclipse_help/eclipse/methodology/heads_methodology/index.html">
+<topic  label="For Platform Experts" href="eclipse_help/eclipse/methodology/heads_methodology/for_platform_experts.html">
+<topic  class="chapter " label="Create libraries to support platform specific features / library / component" href="eclipse_help/eclipse/methodology/heads_methodology/create_libraries_to_support_platform_specific_features__library__component.html"/>
+
+<topic  class="chapter " label="Extend the ThingML transformations to compile code for a new platform" href="eclipse_help/eclipse/methodology/heads_methodology/extend_the_thingml_transformations_to_compile_code_for_a_new_platform.html"/>
+<topic  class="chapter " label="Extend Kevoree to deploy code for a new platform" href="eclipse_help/eclipse/methodology/heads_methodology/kevoree-platform-integration/index.html"/>
+<topic  class="chapter " label="Extend Kevoree to support a new communication channel" href="eclipse_help/eclipse/methodology/heads_methodology/extend_kevoree_to_support_a_new_communication_channel.html"/>
 </topic>
-</topic>    
-        <topic href="eclipse_help/eclipse/methodology/credits/README.html" label="Credits" class="chapter  new-chapter" data-progress="4" style="left: 96%;"></topic>
+<topic  class="chapter " label=" For Service Developers" href="eclipse_help/eclipse/methodology/heads_methodology/for_service_developers.html">
+<topic  class="chapter " label="Model HD-Service logic with ThingML components" href="eclipse_help/eclipse/methodology/heads_methodology/model_hd-service_logic_with_thingml_components.html"/>
+<topic  class="chapter " label="Compile ThingML components to platform specific code" href="eclipse_help/eclipse/methodology/heads_methodology/compile_thingml_components_to_platform_specific_code.html"/>
+<topic  class="chapter " label="Model HD-Service deployment with Kevoree" href="eclipse_help/eclipse/methodology/heads_methodology/model_hd-service_deployment_with_kevoree.html"/>
+<topic  class="chapter " label="Deploy platform specific code using Kevoree" href="eclipse_help/eclipse/methodology/heads_methodology/deploy_platform_specific_code_using_kevoree.html"/>
+</topic>
+
+<topic  class="chapter " label=" For Service Operators" href="eclipse_help/eclipse/methodology/heads_methodology/for_service_operators.html">
+<topic  class="chapter " label="Visualize the configuration and status of a running HD-Service" href="eclipse_help/eclipse/methodology/heads_methodology/visualize_the_configuration_and_status_of_a_running_hd-service.html"/>
+<topic  class="chapter " label="Modify the configuration and deployment of a running HD-Service" href="eclipse_help/eclipse/methodology/heads_methodology/modify_the_configuration_and_deployment_of_a_running_hd-service.html"/>
+<topic  class="chapter " label="Re-deploy/adapt/reconfigure a running HD-Service" href="eclipse_help/eclipse/methodology/heads_methodology/re-deployadaptreconfigure_a_running_hd-service.html"/>
+</topic>
+</topic>
+
+<topic  class="chapter " label="Credits" href="eclipse_help/eclipse/methodology/credits/index.html"/>
+<topic  class="chapter " label="License" href="eclipse_help/eclipse/methodology/license/index.html"/>
+ 
 
 </toc>
