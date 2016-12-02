@@ -15,20 +15,20 @@
     <modules>
         <module>plugins/org.heads.ide.branding</module>
         <module>plugins/org.heads.ide.documentation</module>
-        <module>features/org.heads.ide.branding.feature</module>		
+        <module>features/org.heads.ide.branding.feature</module>
            <module>products.minimal</module>
      <!--<module>products</module>-->
 
     </modules>
 
-    
-        
-        
-		
+
+
+
+
 	<repositories>
         	<repository>
-			<id>Kepler</id>
-			<url>http://download.eclipse.org/releases/mars/</url>
+			<id>Neon</id>
+			<url>http://download.eclipse.org/releases/neon/</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -38,8 +38,8 @@
 			</snapshots>
 		</repository>
 		<repository>
-			<id>kepler-updates</id>
-			<url>http://download.eclipse.org/eclipse/updates/4.5</url>
+			<id>neon-updates</id>
+			<url>http://download.eclipse.org/eclipse/updates/4.6</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -82,7 +82,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
+<!--		<repository>
 			<id>scala</id>
 			<url>http://download.scala-ide.org/sdk/lithium/e44/scala211/stable/site/</url>
 			<layout>p2</layout>
@@ -92,7 +92,7 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</repository>
+		</repository>-->
 
 	<repository>
 			<id>pydev</id>
@@ -107,7 +107,7 @@
 		</repository>
 	<repository>
 			<id>google</id>
-			<url>https://dl.google.com/eclipse/plugin/4.4</url>
+			<url>https://dl.google.com/eclipse/plugin/4.6</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -165,14 +165,14 @@
                             <ws>win32</ws>
                             <arch>x86_64</arch>
                         </environment>
-                      <environment>
-                            <os>macosx</os>  
-                            <ws>cocoa</ws>  
-                            <arch>x86_64</arch> 
+                     <environment>
+                            <os>macosx</os>
+                            <ws>cocoa</ws>
+                            <arch>x86_64</arch>
                         </environment>
                     </environments>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-</project> 
+</project>
