@@ -3,44 +3,44 @@
 
 <product name="Heads IDE" uid="heads_ide" application="org.eclipse.ui.ide.workbench" version="1.1.0" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
    <launcherArgs>
       <programArgs>--launcher.XXMaxPermSize
-256m</programArgs>
+256m
+      </programArgs>
       <vmArgs>-Xms256m
 -Xmx1024m
--XX:MaxPermSize=256m</vmArgs>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+-XX:MaxPermSize=256m
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
    </launcherArgs>
+
+   <windowImages i32="/org.heads.ide.branding/heads-logo-32.png"/>
+
+   <splash
+      location="org.heads.ide.branding" />
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
 
    <plugins>
    </plugins>
 
    <features>
-<!--	<feature id="org.thingml.eclipse.feature"/>
-	<feature id="KevoreeEclipsePluginFeature"/>
-   <feature id="org.emftext.language.feature"/>-->
       <feature id="org.heads.ide.feature"/>
       <feature id="org.eclipse.sdk"/>
-<!--      <feature id="org.eclipse.egit"/>
-      <feature id="org.eclipse.jgit"/>
-      <feature id="org.eclipse.m2e.feature"/>
-      <feature id="org.eclipse.m2e.logback.feature"/>
-	 <feature id="org.eclipse.cdt"/>
-	 <feature id="org.eclipse.cdt.util"/>
-	 <feature id="org.eclipse.cdt.mylyn"/>
-<feature id="org.eclipse.jdt" />
-<feature id="org.eclipse.pde" />
-<feature id="org.nodeclipse.enide.studio.included.feature" />
-<feature id="org.nodeclipse.enide.nodejs.feature" />
-<feature id="org.eclipse.xtend.sdk" />
-<feature id="net.mihai-nita.ansicon" />-->
-
-
-
-	 <!--<feature id="org.eclipse.cdt.mylyn"/>-->
    </features>
 
    <configurations>
@@ -52,5 +52,12 @@
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="3" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
