@@ -19,15 +19,13 @@
    </plugins>
 
    <features>
-	<feature id="org.thingml.eclipse.feature"/>
+	<feature id="thingml.eclipse.feature"/>
 	<feature id="KevoreeEclipsePluginFeature"/>
 
 	<feature id="org.scala-ide.sdt.feature"/>
 
  <!--  <import feature="org.emftext.sdk"
           match="greaterOrEqual"/>-->
-
-   <feature id="org.emftext.language.feature"/>
  
 
       <feature id="org.heads.ide.feature"/>

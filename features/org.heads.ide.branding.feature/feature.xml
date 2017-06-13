@@ -18,9 +18,10 @@
    </license>
 
    <requires>
-      <import feature="org.thingml.eclipse.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="net.sourceforge.plantuml.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtext.sdk" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="thingml.feature" version="0.0.0" match="greaterOrEqual"/>
       <import feature="KevoreeEclipsePluginFeature" version="0.0.0" match="greaterOrEqual"/>
-      <import feature="org.emftext.language.feature" version="0.0.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.cdt" version="0.0.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.egit" version="0.0.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.jgit" version="0.0.0" match="greaterOrEqual"/>
